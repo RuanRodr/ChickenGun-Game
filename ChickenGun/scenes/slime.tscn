@@ -57,13 +57,13 @@ region = Rect2(550, 0, 50, 50)
 atlas = ExtResource("2_bkmpm")
 region = Rect2(600, 0, 50, 50)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_l7n4a"]
-atlas = ExtResource("2_wvbe5")
-region = Rect2(50, 0, 50, 50)
-
 [sub_resource type="AtlasTexture" id="AtlasTexture_y1yjy"]
 atlas = ExtResource("2_wvbe5")
 region = Rect2(0, 0, 50, 50)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l7n4a"]
+atlas = ExtResource("2_wvbe5")
+region = Rect2(50, 0, 50, 50)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_uylv8"]
 animations = [{
@@ -113,10 +113,10 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_l7n4a")
+"texture": SubResource("AtlasTexture_y1yjy")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_y1yjy")
+"texture": SubResource("AtlasTexture_l7n4a")
 }],
 "loop": true,
 "name": &"default",
@@ -127,15 +127,15 @@ animations = [{
 size = Vector2(10, 23)
 
 [node name="Slime" type="Node2D"]
+position = Vector2(0, -12)
 script = ExtResource("1_fdqbh")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(2, 3)
 scale = Vector2(0.665, 0.735)
 sprite_frames = SubResource("SpriteFrames_uylv8")
-animation = &"Ataque"
 autoplay = "default"
-frame_progress = 0.203774
+frame_progress = 0.836642
 
 [node name="Killzone" parent="." instance=ExtResource("2_0iajo")]
 
