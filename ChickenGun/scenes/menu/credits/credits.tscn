@@ -1,0 +1,58 @@
+[gd_scene load_steps=6 format=3 uid="uid://c77g0kboeh103"]
+
+[ext_resource type="FontFile" uid="uid://c53kogtyjwsss" path="res://assets/fonts/PixelOperator8-Bold.ttf" id="1_rf4k4"]
+[ext_resource type="Script" path="res://scenes/menu/credits/credits.gd" id="1_tkyr4"]
+[ext_resource type="FontFile" uid="uid://dbjl1e6kdxpl6" path="res://assets/fonts/PixelOperator8.ttf" id="2_82grk"]
+[ext_resource type="PackedScene" uid="uid://biqieu6rqkxvc" path="res://scenes/menu/members/members.tscn" id="3_xb4m0"]
+[ext_resource type="Theme" uid="uid://co7pi8lf8wcqb" path="res://assets/button theme/title_screen.tres" id="4_i0fyd"]
+
+[node name="Credits" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource("1_tkyr4")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 12
+theme_override_constants/margin_top = 12
+theme_override_constants/margin_right = 12
+theme_override_constants/margin_bottom = 12
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="Credits" type="Label" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 12
+theme_override_fonts/font = ExtResource("1_rf4k4")
+theme_override_font_sizes/font_size = 32
+text = "CREDITS"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Members" parent="MarginContainer/VBoxContainer" instance=ExtResource("3_xb4m0")]
+layout_mode = 2
+
+[node name="Quit Button" type="Button" parent="MarginContainer/VBoxContainer"]
+custom_minimum_size = Vector2(200, 60)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 8
+theme = ExtResource("4_i0fyd")
+theme_override_fonts/font = ExtResource("2_82grk")
+theme_override_font_sizes/font_size = 30
+text = "QUIT"

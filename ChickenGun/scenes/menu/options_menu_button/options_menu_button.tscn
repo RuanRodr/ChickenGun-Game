@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3 uid="uid://bjwneo6o5rird"]
+
+[ext_resource type="PackedScene" uid="uid://djx278hxhh256" path="res://scenes/menu/custom_button/custom_button.tscn" id="1_jm362"]
+
+[node name="Options Menu Button" instance=ExtResource("1_jm362")]

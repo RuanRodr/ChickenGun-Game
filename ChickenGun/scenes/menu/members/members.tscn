@@ -1,0 +1,145 @@
+[gd_scene load_steps=3 format=3 uid="uid://biqieu6rqkxvc"]
+
+[ext_resource type="FontFile" uid="uid://dbjl1e6kdxpl6" path="res://assets/fonts/PixelOperator8.ttf" id="1_v0mj4"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_f2igj"]
+
+[node name="Members" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="ScrollContainer" type="ScrollContainer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 100.0
+offset_top = 70.0
+offset_right = -100.0
+offset_bottom = -80.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 6
+size_flags_vertical = 2
+theme_override_constants/separation = 60
+
+[node name="HSeparator_1" type="HSeparator" parent="ScrollContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 20
+theme_override_styles/separator = SubResource("StyleBoxEmpty_f2igj")
+
+[node name="Desenvolvimento" type="Label" parent="ScrollContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("1_v0mj4")
+theme_override_font_sizes/font_size = 40
+text = "DESENVOLVIMENTO"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Desenvolvimeto_Nomes" type="Label" parent="ScrollContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/line_spacing = 30
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("1_v0mj4")
+theme_override_font_sizes/font_size = 30
+text = "RUAN
+GABRIEL
+ISAQUE
+IAN"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Sprites_Personagens" type="Label" parent="ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 65)
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("1_v0mj4")
+theme_override_font_sizes/font_size = 40
+text = "SPRITES DOS PERSONAGENS"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Sprites_Personagens_Nomes" type="Label" parent="ScrollContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/line_spacing = 30
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("1_v0mj4")
+theme_override_font_sizes/font_size = 30
+text = "RUAN
+GABRIEL
+"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Sprites_Mundo" type="Label" parent="ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 65)
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("1_v0mj4")
+theme_override_font_sizes/font_size = 40
+text = "SPRITES DE MUNDO"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Sprites_Mundo_Nomes" type="Label" parent="ScrollContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/line_spacing = 30
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("1_v0mj4")
+theme_override_font_sizes/font_size = 30
+text = "BRACKEYS
+"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Musica" type="Label" parent="ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 65)
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("1_v0mj4")
+theme_override_font_sizes/font_size = 40
+text = "MÚSICA"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Musica_Nomes" type="Label" parent="ScrollContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/line_spacing = 30
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("1_v0mj4")
+theme_override_font_sizes/font_size = 30
+text = "AFTON
+"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HSeparator_3" type="HSeparator" parent="ScrollContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 20
+theme_override_styles/separator = SubResource("StyleBoxEmpty_f2igj")

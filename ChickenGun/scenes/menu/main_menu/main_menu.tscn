@@ -1,0 +1,123 @@
+[gd_scene load_steps=10 format=3 uid="uid://drvqcpmu76c5u"]
+
+[ext_resource type="Script" path="res://scenes/menu/main_menu/main_menu.gd" id="1_1qs57"]
+[ext_resource type="FontFile" uid="uid://dbjl1e6kdxpl6" path="res://assets/fonts/PixelOperator8.ttf" id="1_8kojp"]
+[ext_resource type="Texture2D" uid="uid://c4oerqb3tlj41" path="res://assets/images/background_novo_2.png" id="2_3bc7v"]
+[ext_resource type="Theme" uid="uid://co7pi8lf8wcqb" path="res://assets/button theme/title_screen.tres" id="4_h5drx"]
+[ext_resource type="PackedScene" uid="uid://cxne5idljjp0o" path="res://scenes/menu/options_menu/options_menu.tscn" id="5_j3plc"]
+[ext_resource type="AudioStream" uid="uid://iw7sopyr77do" path="res://assets/music/galinhabotaovograndemimficarfeliz.mp3" id="6_olhjd"]
+[ext_resource type="PackedScene" uid="uid://c77g0kboeh103" path="res://scenes/menu/credits/credits.tscn" id="6_q41mi"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_j4dkr"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_upmwb"]
+
+[node name="Main Menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource("1_1qs57")
+
+[node name="Background" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_3bc7v")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 12
+theme_override_constants/margin_top = 12
+theme_override_constants/margin_right = 12
+theme_override_constants/margin_bottom = 12
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = 60
+
+[node name="HSeparator" type="HSeparator" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_styles/separator = SubResource("StyleBoxEmpty_j4dkr")
+
+[node name="Title" type="Label" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 24
+theme_override_fonts/font = ExtResource("1_8kojp")
+theme_override_font_sizes/font_size = 64
+text = "CHICKEN GUN"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 20
+alignment = 1
+
+[node name="HSeparator" type="HSeparator" parent="MarginContainer/HBoxContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 100
+theme_override_styles/separator = SubResource("StyleBoxEmpty_upmwb")
+
+[node name="start_button" type="Button" parent="MarginContainer/HBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(200, 60)
+layout_mode = 2
+theme = ExtResource("4_h5drx")
+theme_override_fonts/font = ExtResource("1_8kojp")
+theme_override_font_sizes/font_size = 30
+text = "START"
+
+[node name="options_button" type="Button" parent="MarginContainer/HBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(200, 60)
+layout_mode = 2
+theme = ExtResource("4_h5drx")
+theme_override_fonts/font = ExtResource("1_8kojp")
+theme_override_font_sizes/font_size = 30
+text = "OPTIONS"
+
+[node name="credits_button" type="Button" parent="MarginContainer/HBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(200, 60)
+layout_mode = 2
+theme = ExtResource("4_h5drx")
+theme_override_fonts/font = ExtResource("1_8kojp")
+theme_override_font_sizes/font_size = 30
+text = "CREDITS"
+
+[node name="quit_button" type="Button" parent="MarginContainer/HBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(200, 60)
+layout_mode = 2
+theme = ExtResource("4_h5drx")
+theme_override_fonts/font = ExtResource("1_8kojp")
+theme_override_font_sizes/font_size = 30
+text = "QUIT"
+
+[node name="Options Menu" parent="." instance=ExtResource("5_j3plc")]
+visible = false
+layout_mode = 1
+
+[node name="Credits" parent="." instance=ExtResource("6_q41mi")]
+visible = false
+layout_mode = 1
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("6_olhjd")
+autoplay = true
+bus = &"Music"

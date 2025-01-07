@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://cqtas7d7vwqyw"]
+
+[ext_resource type="PackedScene" uid="uid://djx278hxhh256" path="res://scenes/menu/custom_button/custom_button.tscn" id="1_lyg1f"]
+
+[node name="Main Menu Button" instance=ExtResource("1_lyg1f")]
+
+[node name="Button" parent="." index="0"]
+custom_minimum_size = Vector2(200, 50)
+
+[node name="OptionButton" type="OptionButton" parent="Button" index="0"]
+layout_mode = 0
+offset_right = 32.0
+offset_bottom = 20.0

@@ -11,13 +11,13 @@ config_version=5
 [application]
 
 config/name="ChickenGun"
-run/main_scene="res://scenes/game.tscn"
+run/main_scene="res://scenes/menu/main_menu/main_menu.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://icon.svg"
 
 [autoload]
 
-Music="*res://scenes/music.tscn"
+Music="*res://scenes/music/music.tscn"
 
 [input]
 

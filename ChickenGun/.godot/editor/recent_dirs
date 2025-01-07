@@ -1,4 +1,15 @@
-res://scripts
-res://scenes
-res://assets/sprites
-D:/Projeto POO/ChickenGun-Game/ChickenGun/scripts
+res://scenes/menu/window_mode_button
+res://scenes/menu/resolution_mode_button
+res://scenes/menu/options_menu
+res://scenes/menu/audio_slider_settings
+res://scenes/menu/credits
+res://scenes/menu/hotkey_rebind_button
+res://scenes/menu/main_menu
+res://assets/images
+res://assets/music
+res://scenes/personagens/player
+res://scenes/personagens/jare
+res://scenes/personagens/slime
+res://scenes/killzone
+res://scenes/game_manager
+res://scenes/coletaveis/coin
