@@ -1,3 +1,5 @@
+res://assets/sprites
+res://scenes/personagens
 res://scenes/menu/window_mode_button
 res://scenes/menu/resolution_mode_button
 res://scenes/menu/options_menu
@@ -9,7 +11,6 @@ res://assets/images
 res://assets/music
 res://scenes/personagens/player
 res://scenes/personagens/jare
-res://scenes/personagens/slime
 res://scenes/killzone
 res://scenes/game_manager
 res://scenes/coletaveis/coin

@@ -1,0 +1,82 @@
+[gd_scene load_steps=12 format=3 uid="uid://bi42m1ao6mbe4"]
+
+[ext_resource type="Script" path="res://scenes/personagens/falcao/falcao.gd" id="1_hcspx"]
+[ext_resource type="Texture2D" uid="uid://ciq24ucc84fsl" path="res://assets/sprites/FalcaoAndar.png" id="1_y78d5"]
+[ext_resource type="PackedScene" uid="uid://dwpf8re4uiwwh" path="res://scenes/killzone/killzone.tscn" id="2_83m47"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lrsl1"]
+atlas = ExtResource("1_y78d5")
+region = Rect2(0, 0, 50, 50)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kmyvx"]
+atlas = ExtResource("1_y78d5")
+region = Rect2(50, 0, 50, 50)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_e0uvm"]
+atlas = ExtResource("1_y78d5")
+region = Rect2(100, 0, 50, 50)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y0qiu"]
+atlas = ExtResource("1_y78d5")
+region = Rect2(150, 0, 50, 50)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pg0b2"]
+atlas = ExtResource("1_y78d5")
+region = Rect2(200, 0, 50, 50)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_04hyt"]
+atlas = ExtResource("1_y78d5")
+region = Rect2(250, 0, 50, 50)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_jmrvm"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lrsl1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kmyvx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e0uvm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y0qiu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pg0b2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_04hyt")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_02yop"]
+size = Vector2(11.5, 18)
+
+[node name="Falcão" type="Node2D"]
+script = ExtResource("1_hcspx")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -13)
+scale = Vector2(0.5, 0.5)
+sprite_frames = SubResource("SpriteFrames_jmrvm")
+autoplay = "default"
+frame_progress = 0.407684
+
+[node name="Killzone" parent="." instance=ExtResource("2_83m47")]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Killzone"]
+position = Vector2(-1.75, -11)
+shape = SubResource("RectangleShape2D_02yop")
+
+[node name="RayCastRight" type="RayCast2D" parent="."]
+position = Vector2(-2, -6)
+target_position = Vector2(10, 0)
+
+[node name="RayCastLeft" type="RayCast2D" parent="."]
+position = Vector2(-2, -6)
+target_position = Vector2(-9, 0)
