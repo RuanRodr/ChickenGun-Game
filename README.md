@@ -1,4 +1,5 @@
 # ChickenGun-Game
 Project ChickenGun Game by Godot
 
-![CanjicaAndar (2)](https://github.com/user-attachments/assets/52baa0cb-9b40-408f-ab28-7c47e45d4bd3)
+
+![pixilart-drawing](https://github.com/user-attachments/assets/6dab126c-41bd-4008-9e96-6ff46d01296f)
