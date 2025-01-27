@@ -29,7 +29,7 @@ animations = [{
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_02yop"]
 size = Vector2(41, 8)
 
-[node name="Jaré" type="Node2D"]
+[node name="Jaré" type="Node2D" groups=["inimigos"]]
 script = ExtResource("1_jhko1")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
@@ -37,6 +37,7 @@ position = Vector2(0, -5)
 sprite_frames = SubResource("SpriteFrames_tt441")
 autoplay = "default"
 frame_progress = 0.166942
+flip_h = true
 
 [node name="Killzone" parent="." instance=ExtResource("3_12tfs")]
 
@@ -51,3 +52,13 @@ target_position = Vector2(22, 1)
 [node name="RayCastLeft" type="RayCast2D" parent="."]
 position = Vector2(0, -3)
 target_position = Vector2(-22, 0)
+
+[node name="Hitbox" type="Area2D" parent="." groups=["inimigos"]]
+collision_layer = 4
+collision_mask = 8
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hitbox"]
+position = Vector2(1, -5)
+shape = SubResource("RectangleShape2D_02yop")
+
+[connection signal="body_entered" from="Hitbox" to="." method="_on_hitbox_body_entered"]

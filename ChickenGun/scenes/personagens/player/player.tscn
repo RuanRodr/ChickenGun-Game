@@ -43,7 +43,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"idle",
-"speed": 5.0
+"speed": 2.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -72,11 +72,11 @@ animations = [{
 }]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_ulk7n"]
-radius = 6.0
+radius = 7.0
 
 [node name="Player" type="CharacterBody2D"]
 z_index = 5
-position = Vector2(-1, 0)
+position = Vector2(-1, -1)
 collision_layer = 2
 collision_mask = 3
 script = ExtResource("1_wl0s0")
@@ -84,11 +84,13 @@ script = ExtResource("1_wl0s0")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(2, -7)
 sprite_frames = SubResource("SpriteFrames_vaken")
-animation = &"run"
+animation = &"idle"
 autoplay = "idle"
-frame = 2
-frame_progress = 0.239306
+frame_progress = 0.979734
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(1, -7)
+position = Vector2(2, -7)
 shape = SubResource("CircleShape2D_ulk7n")
+
+[node name="Muzzle" type="Node2D" parent="."]
+position = Vector2(2, -6)

@@ -18,3 +18,17 @@ func _process(delta: float) -> void:
 		animated_sprite.flip_h = false
 	
 	position.x += direction * SPEED * delta
+
+func _on_hitbox_body_entered(body: Node2D) -> void:
+	# Carrega a cena da explosão
+	var explosao_scene = preload("res://scenes/personagens/explosao.tscn")
+	var explosao = explosao_scene.instantiate()
+	
+	# Posiciona a explosão no local do inimigo
+	explosao.position = position
+	
+	# Adiciona a explosão à mesma cena que o inimigo
+	get_parent().add_child(explosao)
+	
+	# Remove o inimigo
+	queue_free()
