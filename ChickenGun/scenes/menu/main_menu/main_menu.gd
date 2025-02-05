@@ -1,6 +1,6 @@
 class_name Main_Menu extends Control
 
-const GAME = preload("res://scenes/game/game.tscn")
+const GAME = preload("res://scenes/Game/game/game.tscn")
 
 @onready var margin_container: MarginContainer = $MarginContainer
 @onready var start_button = $"MarginContainer/HBoxContainer/VBoxContainer/start_button"

@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://r62w6lovct0f"]
+
+[ext_resource type="AudioStream" uid="uid://iw7sopyr77do" path="res://assets/music/galinhabotaovograndemimficarfeliz.mp3" id="1_h07y7"]
+[ext_resource type="Script" path="res://scenes/Game/music/music.gd" id="2_ip3fy"]
+
+[node name="Music" type="AudioStreamPlayer2D"]
+stream = ExtResource("1_h07y7")
+autoplay = true
+bus = &"Music"
+script = ExtResource("2_ip3fy")

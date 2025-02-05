@@ -1,10 +1,10 @@
 [gd_scene load_steps=6 format=3 uid="uid://cxne5idljjp0o"]
 
 [ext_resource type="FontFile" uid="uid://dbjl1e6kdxpl6" path="res://assets/fonts/PixelOperator8.ttf" id="1_75xnj"]
-[ext_resource type="Script" path="res://scenes/menu/options_menu/options_menu.gd" id="1_bxg7s"]
+[ext_resource type="Script" path="res://scenes/Menu/options_menu/options_menu.gd" id="1_gtuko"]
 [ext_resource type="Theme" uid="uid://co7pi8lf8wcqb" path="res://assets/button theme/title_screen.tres" id="2_8p5uv"]
 [ext_resource type="FontFile" uid="uid://c53kogtyjwsss" path="res://assets/fonts/PixelOperator8-Bold.ttf" id="2_i2me1"]
-[ext_resource type="PackedScene" uid="uid://dny40ih02jt6u" path="res://scenes/menu/settings_tab_container/settings_tab_container.tscn" id="3_jx3t4"]
+[ext_resource type="PackedScene" uid="uid://dny40ih02jt6u" path="res://scenes/Menu/settings_tab_container/settings_tab_container.tscn" id="3_jx3t4"]
 
 [node name="Options Menu" type="Control"]
 layout_mode = 3
@@ -13,7 +13,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_bxg7s")
+script = ExtResource("1_gtuko")
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
 layout_mode = 1

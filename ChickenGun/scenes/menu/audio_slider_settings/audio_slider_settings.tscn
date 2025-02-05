@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://b3kiv0cbxb1wd"]
 
-[ext_resource type="Script" path="res://scenes/menu/audio_slider_settings/audio_slider_settings.gd" id="1_gvyww"]
+[ext_resource type="Script" path="res://scenes/Menu/audio_slider_settings/audio_slider_settings.gd" id="1_8dmxl"]
 
 [node name="Audio_Slider_Settings" type="Control"]
 layout_mode = 3
@@ -11,8 +11,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-script = ExtResource("1_gvyww")
-bus_name = "Music"
+script = ExtResource("1_8dmxl")
 
 [node name="HBoxContainer" type="HBoxContainer" parent="."]
 layout_mode = 1

@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://dmjmmejttoh0j"]
 
-[ext_resource type="Script" path="res://scenes/menu/hotkey_rebind_button/hotkey_rebind_button.gd" id="1_mme5f"]
+[ext_resource type="Script" path="res://scenes/Menu/hotkey_rebind_button/hotkey_rebind_button.gd" id="1_or55n"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_qqfeg"]
 
@@ -13,7 +13,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-script = ExtResource("1_mme5f")
+script = ExtResource("1_or55n")
 
 [node name="HBoxContainer" type="HBoxContainer" parent="."]
 layout_mode = 1

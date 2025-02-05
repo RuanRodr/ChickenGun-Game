@@ -1,0 +1,89 @@
+[gd_scene load_steps=6 format=3 uid="uid://yhpft6re1pow"]
+
+[ext_resource type="Script" path="res://scenes/Game/hud/hud.gd" id="1_twfu8"]
+[ext_resource type="Texture2D" uid="uid://issmmlehcfmk" path="res://assets/sprites/corn.png" id="2_yxalk"]
+[ext_resource type="Theme" uid="uid://dn1o2cu4l1mxj" path="res://assets/button theme/hud.tres" id="3_v5sqv"]
+[ext_resource type="FontFile" uid="uid://dbjl1e6kdxpl6" path="res://assets/fonts/PixelOperator8.ttf" id="4_k20qa"]
+[ext_resource type="Texture2D" uid="uid://dv1l05py4dx8j" path="res://assets/sprites/CanjicaLife.png" id="5_v0lc8"]
+
+[node name="HUD" type="CanvasLayer"]
+script = ExtResource("1_twfu8")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="container" type="MarginContainer" parent="Control"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="life_container" type="HBoxContainer" parent="Control/container"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 0
+size_flags_stretch_ratio = 20.0
+
+[node name="life_icon" type="TextureRect" parent="Control/container/life_container"]
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 2
+size_flags_stretch_ratio = 0.0
+texture = ExtResource("5_v0lc8")
+
+[node name="life_counter" type="Label" parent="Control/container/life_container"]
+layout_mode = 2
+theme = ExtResource("3_v5sqv")
+text = "3"
+
+[node name="separete_life" type="Label" parent="Control/container/life_container/life_counter"]
+layout_mode = 2
+offset_left = -18.0
+offset_right = -4.0
+offset_bottom = 16.0
+theme = ExtResource("3_v5sqv")
+text = "x"
+
+[node name="corn_container" type="HBoxContainer" parent="Control/container"]
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+theme_override_constants/separation = 5
+
+[node name="corn_icon" type="TextureRect" parent="Control/container/corn_container"]
+layout_mode = 2
+texture = ExtResource("2_yxalk")
+
+[node name="corns_counter" type="Label" parent="Control/container/corn_container"]
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+theme = ExtResource("3_v5sqv")
+theme_override_constants/shadow_offset_x = 0
+theme_override_fonts/font = ExtResource("4_k20qa")
+text = "000000"
+
+[node name="score_container" type="HBoxContainer" parent="Control/container"]
+layout_mode = 2
+size_flags_horizontal = 8
+size_flags_vertical = 0
+
+[node name="score_label" type="Label" parent="Control/container/score_container"]
+layout_mode = 2
+theme = ExtResource("3_v5sqv")
+text = "SCORE: "
+
+[node name="score_counter" type="Label" parent="Control/container/score_container"]
+layout_mode = 2
+theme = ExtResource("3_v5sqv")
+text = "000000"

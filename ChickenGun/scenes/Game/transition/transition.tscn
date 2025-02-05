@@ -1,0 +1,28 @@
+[gd_scene load_steps=4 format=3 uid="uid://dqtr0ado4soty"]
+
+[ext_resource type="Shader" path="res://assets/transitions/transition_shader.gdshader" id="1_5000d"]
+[ext_resource type="Script" path="res://scenes/Game/transition/transition.gd" id="1_dv7gd"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_boa1n"]
+shader = ExtResource("1_5000d")
+shader_parameter/lines = 10.0
+shader_parameter/threshold = 0.0
+shader_parameter/line_color_a = Color(1, 1, 1, 1)
+shader_parameter/line_color_b = Color(0, 0, 0, 1)
+
+[node name="Transition" type="CanvasLayer"]
+script = ExtResource("1_dv7gd")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+material = SubResource("ShaderMaterial_boa1n")
+anchors_preset = -1
+anchor_left = -0.127
+anchor_top = -0.502
+anchor_right = 1.423
+anchor_bottom = 1.321
+offset_left = -11.0
+offset_top = 6.0
+offset_right = -12.0
+offset_bottom = 5.0
+grow_horizontal = 2
+grow_vertical = 2

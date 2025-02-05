@@ -1,0 +1,24 @@
+[gd_scene load_steps=7 format=3 uid="uid://bd117h0fa7m4a"]
+
+[ext_resource type="Script" path="res://scenes/Game/game/game.gd" id="1_gdaj8"]
+[ext_resource type="Script" path="res://scenes/Game/score manager/score_manager.gd" id="2_gh8aw"]
+[ext_resource type="Script" path="res://scenes/Game/current_level/current_level.gd" id="2_i2se6"]
+[ext_resource type="PackedScene" uid="uid://yhpft6re1pow" path="res://scenes/Game/hud/hud.tscn" id="2_l2bfe"]
+[ext_resource type="PackedScene" uid="uid://d0cfa7xcnoiva" path="res://scenes/Player/player/player.tscn" id="4_0mscr"]
+[ext_resource type="PackedScene" uid="uid://dqtr0ado4soty" path="res://scenes/Game/transition/transition.tscn" id="6_jiou4"]
+
+[node name="Game" type="Node"]
+script = ExtResource("1_gdaj8")
+
+[node name="Score Manager" type="Node" parent="."]
+script = ExtResource("2_gh8aw")
+
+[node name="Current Level" type="Node" parent="."]
+script = ExtResource("2_i2se6")
+
+[node name="Player" parent="." instance=ExtResource("4_0mscr")]
+position = Vector2(-50, -10)
+
+[node name="HUD" parent="." instance=ExtResource("2_l2bfe")]
+
+[node name="Transition" parent="." instance=ExtResource("6_jiou4")]
