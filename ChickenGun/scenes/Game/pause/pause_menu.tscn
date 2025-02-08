@@ -1,0 +1,115 @@
+[gd_scene load_steps=7 format=3 uid="uid://b7ttd6r2ej4kq"]
+
+[ext_resource type="Script" path="res://scenes/Game/pause/pause_menu.gd" id="1_vh7y5"]
+[ext_resource type="FontFile" uid="uid://dbjl1e6kdxpl6" path="res://assets/fonts/PixelOperator8.ttf" id="1_y4156"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_00h3q"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_swts7"]
+bg_color = Color(0, 0.724038, 0.243579, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+expand_margin_top = 2.0
+expand_margin_bottom = 2.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1ous5"]
+bg_color = Color(0.739047, 0.576397, 0, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+expand_margin_top = 2.0
+expand_margin_bottom = 2.0
+
+[sub_resource type="Theme" id="Theme_3f0kg"]
+Button/colors/font_color = Color(1, 1, 1, 1)
+Button/fonts/font = ExtResource("1_y4156")
+Button/styles/hover_pressed_mirrored = null
+Button/styles/normal = SubResource("StyleBoxFlat_swts7")
+Button/styles/normal_mirrored = null
+Button/styles/pressed = SubResource("StyleBoxFlat_1ous5")
+
+[node name="Pause" type="CanvasLayer"]
+
+[node name="Pause" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("1_vh7y5")
+
+[node name="MarginContainer" type="MarginContainer" parent="Pause"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="bg_overlay" type="ColorRect" parent="Pause/MarginContainer"]
+layout_mode = 2
+color = Color(0, 0, 0, 0.254902)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Pause/MarginContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_constants/separation = 60
+
+[node name="HSeparator" type="HSeparator" parent="Pause/MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_styles/separator = SubResource("StyleBoxEmpty_00h3q")
+
+[node name="Title" type="Label" parent="Pause/MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_colors/font_color = Color(1, 1, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 24
+theme_override_fonts/font = ExtResource("1_y4156")
+theme_override_font_sizes/font_size = 64
+text = "PAUSE
+"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Pause/MarginContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+alignment = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Pause/MarginContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 20
+alignment = 1
+
+[node name="resume_btn" type="Button" parent="Pause/MarginContainer/HBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(200, 60)
+layout_mode = 2
+size_flags_horizontal = 4
+theme = SubResource("Theme_3f0kg")
+theme_override_fonts/font = ExtResource("1_y4156")
+text = "RESUME"
+
+[node name="menu_bnt" type="Button" parent="Pause/MarginContainer/HBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(200, 60)
+layout_mode = 2
+theme = SubResource("Theme_3f0kg")
+text = "MAIN MENU
+"
+
+[node name="quit_btn" type="Button" parent="Pause/MarginContainer/HBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(200, 60)
+layout_mode = 2
+size_flags_horizontal = 4
+theme = SubResource("Theme_3f0kg")
+theme_override_fonts/font = ExtResource("1_y4156")
+text = "QUIT GAME"
+
+[connection signal="pressed" from="Pause/MarginContainer/HBoxContainer/VBoxContainer/resume_btn" to="Pause" method="_on_resume_btn_pressed"]

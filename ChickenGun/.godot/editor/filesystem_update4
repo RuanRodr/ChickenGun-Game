@@ -1,25 +1,5 @@
-res://scenes/Bosses/teiu/teiu/teiu.tscn
-res://scenes/Collectibles/coin/coin.gd
+res://scenes/Menu/main_menu/main_menu.tscn
 res://assets/button theme/game_over.tres
-res://scenes/Projectiles/stone/stone.tscn
-res://scenes/Enemies/enemy/enemy.tscn
-res://scenes/Enemies/falcao/falcao.tscn
-res://scenes/Projectiles/bullet/bullet.tscn
-res://scenes/Levels/final level/final_level.tscn
-res://scenes/Levels/final level/final_level.gd
-res://scenes/Game/game/game.gd
-res://scenes/Bosses/teiu/teiu/teiu.gd
-res://scenes/Bosses/teiu/jump state/jump_state.gd
-res://scenes/Bosses/teiu/stone attack state/stone_attack_state.gd
-res://scenes/Bosses/teiu/follow state/follow_state.gd
-res://scenes/Bosses/teiu/melee attack state/melee_attack_state.gd
-res://scenes/Bosses/teiu/teiu state/teiu_state.gd
-res://scenes/Bosses/teiu/idle state/idle_state.gd
-res://scenes/Bosses/teiu/minions attack state/minions_attack_state.gd
-res://scenes/Bosses/teiu/dead state/dead_state.gd
-res://singletons/Signal Manager/signal_manager.gd
-res://scenes/Game/game/game.tscn
-res://scenes/Game/hud/hud.tscn
-res://scenes/Game/game over/game_over.tscn
-res://scenes/Killzone/killzone.gd
-res://scenes/Killzone/killzone.tscn
+res://assets/button theme/title_screen.tres
+res://scenes/Game/pause/pause_menu.gd
+res://scenes/Game/pause/pause_menu.tscn
