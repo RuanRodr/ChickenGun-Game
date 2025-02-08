@@ -1,6 +1,6 @@
 class_name Teiu extends CharacterBody2D
 
-var life: int = 1000
+var life: int = 10
 var current_state: Teiu_State
 var player: Player
 var buff: float = 1.0

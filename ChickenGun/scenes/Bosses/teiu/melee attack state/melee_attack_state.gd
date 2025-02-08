@@ -12,5 +12,6 @@ func physical_update(delta: float) -> void:
 func transition() -> Teiu_State:
 	if abs(distance_player.x) >= 30.0: return Follow_State.new()
 	if teiu.life <= 990 and teiu.life > 980.0: return Jump_State.new()
+	if teiu.life == 0.0: return Dead_State.new()
 	return null
 	

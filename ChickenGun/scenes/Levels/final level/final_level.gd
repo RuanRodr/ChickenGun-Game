@@ -15,7 +15,8 @@ func _ready() -> void:
 	Signal_Manager.teiu_is_dead.connect(on_boss_slain)
 	
 func _process(delta: float) -> void:
-	update_boss_life()
+	if teiu != null and not teiu.current_state is Dead_State: 
+		update_boss_life()
 	
 func on_boss_fight_start(body: Node2D) -> void:
 	if body is Player and teiu.current_state is Idle_State:
@@ -25,10 +26,11 @@ func on_boss_fight_start(body: Node2D) -> void:
 		boss_fight.visible = false
 		
 func on_boss_slain() -> void:
+	boss_fight.queue_free()
+	boss_life.queue_free()
 	boss_slain.visible = true
 	animation_player.play("boss slain")
 	await animation_player.animation_finished
-	pass
 	
 func update_boss_life() -> void:
 	boss_life.value = 100 * teiu.life / boss_life_max

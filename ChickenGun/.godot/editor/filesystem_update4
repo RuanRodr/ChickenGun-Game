@@ -3,3 +3,11 @@ res://assets/button theme/game_over.tres
 res://assets/button theme/title_screen.tres
 res://scenes/Game/pause/pause_menu.gd
 res://scenes/Game/pause/pause_menu.tscn
+res://scenes/Levels/final level/final_level.tscn
+res://scenes/Bosses/teiu/teiu/teiu.gd
+res://scenes/Levels/final level/final_level.gd
+res://scenes/Bosses/teiu/follow state/follow_state.gd
+res://scenes/Bosses/teiu/stone attack state/stone_attack_state.gd
+res://scenes/Bosses/teiu/dead state/dead_state.gd
+res://scenes/Bosses/teiu/teiu/teiu.tscn
+res://scenes/Bosses/teiu/melee attack state/melee_attack_state.gd

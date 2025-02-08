@@ -23,6 +23,7 @@ func enter(teiu: Teiu) -> void:
 	
 func transition() -> Teiu_State:
 	if teiu.life <= 980.0: return Follow_State.new()
+	if teiu.life == 0.0: return Dead_State.new()
 	return null
 
 func spawn_stones() -> void:
