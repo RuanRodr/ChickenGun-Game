@@ -18,3 +18,6 @@ res://scenes/Bosses/teiu/idle state/idle_state.gd
 res://scenes/Bosses/teiu/minions attack state/minions_attack_state.gd
 res://scenes/Bosses/teiu/dead state/dead_state.gd
 res://singletons/Signal Manager/signal_manager.gd
+res://scenes/Game/game/game.tscn
+res://scenes/Game/hud/hud.tscn
+res://scenes/Game/game over/game_over.tscn
