@@ -1,20 +1,19 @@
 class_name Follow_State extends Teiu_State
 
-const SPEED_INTENSITY: float = 400.0
-
-var distance: Vector2
+const SPEED_INTENSITY: float = 50.0
 
 func enter(teiu: Teiu) -> void:
 	super(teiu)
-	teiu.animated_sprite_2d.play("idle") # depois mudar para follow
+	teiu.animated_sprite_2d.play("idle") 
 	print("Vc entrou no Follow State")
 	
 func physical_update(delta: float) -> void:
-	distance = teiu.player.global_position - teiu.global_position
-	var speed_direction = distance.normalized()
-	distance = Vector2(abs(distance.x), abs(distance.y))
+	super(delta)
+	var speed_direction: Vector2 = -1 * distance_player.normalized()
 	teiu.velocity = speed_direction * SPEED_INTENSITY
+	teiu.move_and_slide()
 	
 func transition() -> Teiu_State:
-	if distance.x < 500.0: return Melee_Attack.new()
+	if abs(distance_player.x) < 30.0: return Melee_Attack.new()
+	if teiu.life <= 990 and teiu.life > 980.0 : return Jump_State.new()
 	return null

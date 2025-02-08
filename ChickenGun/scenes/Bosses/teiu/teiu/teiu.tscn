@@ -1,4 +1,4 @@
-[gd_scene load_steps=31 format=3 uid="uid://bk1jewgdc4fu3"]
+[gd_scene load_steps=45 format=3 uid="uid://bk1jewgdc4fu3"]
 
 [ext_resource type="Script" path="res://scenes/Bosses/teiu/teiu/teiu.gd" id="1_yyg2m"]
 [ext_resource type="Texture2D" uid="uid://8k1bwfgvkx37" path="res://assets/sprites/Teiu/Ataque 1/pixil-frame-0.png" id="2_bv3qx"]
@@ -6,10 +6,16 @@
 [ext_resource type="Texture2D" uid="uid://cjb83ryf2rj6r" path="res://assets/sprites/Teiu/Ataque 1/pixil-frame-2.png" id="4_tfpfh"]
 [ext_resource type="Texture2D" uid="uid://cys78pd7xigfj" path="res://assets/sprites/Teiu/Ataque 1/pixil-frame-3.png" id="5_4481h"]
 [ext_resource type="Texture2D" uid="uid://7q8t5otc2qch" path="res://assets/sprites/Teiu/Ataque 1/pixil-frame-4.png" id="6_otuqs"]
+[ext_resource type="Texture2D" uid="uid://di37xt25mjyvo" path="res://assets/sprites/Teiu/RabadaTeiu-Ataque2/pixil-frame-0.png" id="6_ywu33"]
+[ext_resource type="Texture2D" uid="uid://dhbtqmxhrrcgr" path="res://assets/sprites/Teiu/RabadaTeiu-Ataque2/pixil-frame-1.png" id="7_o5a38"]
 [ext_resource type="Texture2D" uid="uid://fcicgg3l2jn7" path="res://assets/sprites/Teiu/Ataque 1/pixil-frame-5.png" id="7_rktfa"]
 [ext_resource type="Texture2D" uid="uid://c41iq1vv0pwh7" path="res://assets/sprites/Teiu/Ataque 1/pixil-frame-6.png" id="8_1138p"]
+[ext_resource type="Texture2D" uid="uid://dp86f8itoqrk3" path="res://assets/sprites/Teiu/RabadaTeiu-Ataque2/pixil-frame-2.png" id="8_caqre"]
+[ext_resource type="Texture2D" uid="uid://b3ya6w41cc2uc" path="res://assets/sprites/Teiu/RabadaTeiu-Ataque2/pixil-frame-3.png" id="9_cgjct"]
 [ext_resource type="Texture2D" uid="uid://dfkhdh8qo0ex7" path="res://assets/sprites/Teiu/Ataque 1/pixil-frame-7.png" id="9_l3oi0"]
 [ext_resource type="Texture2D" uid="uid://cp380xwdi2vl4" path="res://assets/sprites/Teiu/Idle/pixil-frame-0.png" id="10_iksq0"]
+[ext_resource type="Texture2D" uid="uid://bfss63shq07ak" path="res://assets/sprites/Teiu/RabadaTeiu-Ataque2/pixil-frame-4.png" id="10_oaaa1"]
+[ext_resource type="Texture2D" uid="uid://bo7qknwoffk0u" path="res://assets/sprites/Teiu/RabadaTeiu-Ataque2/pixil-frame-6.png" id="11_rsgjg"]
 [ext_resource type="Texture2D" uid="uid://c8xus7uftd0ql" path="res://assets/sprites/Teiu/Idle/pixil-frame-1.png" id="11_whyyq"]
 [ext_resource type="Texture2D" uid="uid://c6gaxkxbs218n" path="res://assets/sprites/Teiu/Idle/pixil-frame-2.png" id="12_7hspa"]
 [ext_resource type="Texture2D" uid="uid://jvhqj0cnefvk" path="res://assets/sprites/Teiu/Idle/pixil-frame-3.png" id="13_u3pc7"]
@@ -63,6 +69,34 @@ region = Rect2(0, 0, 100, 100)
 atlas = ExtResource("9_l3oi0")
 region = Rect2(0, 0, 100, 100)
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_p16o1"]
+atlas = ExtResource("6_ywu33")
+region = Rect2(0, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jvk86"]
+atlas = ExtResource("7_o5a38")
+region = Rect2(0, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jx8ae"]
+atlas = ExtResource("8_caqre")
+region = Rect2(0, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tuxl6"]
+atlas = ExtResource("9_cgjct")
+region = Rect2(0, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_csmwa"]
+atlas = ExtResource("10_oaaa1")
+region = Rect2(0, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k4akg"]
+atlas = ExtResource("10_oaaa1")
+region = Rect2(0, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o8cms"]
+atlas = ExtResource("11_rsgjg")
+region = Rect2(0, 0, 100, 100)
+
 [sub_resource type="SpriteFrames" id="SpriteFrames_qmur8"]
 animations = [{
 "frames": [{
@@ -109,14 +143,43 @@ animations = [{
 }],
 "loop": true,
 "name": &"melee attack",
-"speed": 5.0
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p16o1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jvk86")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jx8ae")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tuxl6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_csmwa")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k4akg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o8cms")
+}],
+"loop": false,
+"name": &"tailed",
+"speed": 60.0
 }]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_bn3ul"]
-radius = 25.0799
+radius = 25.0
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_hadxg"]
 radius = 80.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_4kqk6"]
+radius = 25.0
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_54l17"]
 radius = 25.8
@@ -126,7 +189,7 @@ script = ExtResource("1_yyg2m")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_qmur8")
-animation = &"idle"
+animation = &"tailed"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(8, 12)
@@ -137,6 +200,14 @@ shape = SubResource("CircleShape2D_bn3ul")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player Detection"]
 position = Vector2(6, 7)
 shape = SubResource("CircleShape2D_hadxg")
+
+[node name="Hitbox" type="Area2D" parent="."]
+collision_layer = 255
+collision_mask = 255
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hitbox"]
+position = Vector2(8, 12)
+shape = SubResource("CircleShape2D_4kqk6")
 
 [node name="Killzone" parent="." instance=ExtResource("14_7myu7")]
 

@@ -8,6 +8,9 @@ func enter(teiu: Teiu) -> void:
 	teiu.player_detection.body_entered.connect(on_body_entered)
 	print("Entrou no Idle")
 	
+func physical_update(delta: float) -> void:
+	pass
+	
 func transition() -> Teiu_State:
 	if player_entered: return Follow_State.new()
 	return null
