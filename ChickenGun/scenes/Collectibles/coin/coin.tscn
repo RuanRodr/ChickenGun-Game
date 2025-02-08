@@ -198,7 +198,7 @@ _data = {
 }
 
 [node name="Coin" type="Area2D"]
-collision_mask = 2
+collision_mask = 3
 script = ExtResource("1_1ni5f")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
@@ -211,7 +211,6 @@ shape = SubResource("CircleShape2D_a3fi1")
 
 [node name="PickupSound" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("3_yyl0k")
-volume_db = -13.0
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {

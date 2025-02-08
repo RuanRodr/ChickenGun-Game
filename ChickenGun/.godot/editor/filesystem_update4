@@ -1,27 +1,20 @@
-res://scenes/Bosses/Teiu/teiu.tscn
-res://scenes/Bosses/Teiu/teiu state/teiu_state.gd
-res://scenes/Bosses/Teiu/idle state/idle_state.gd
-res://scenes/Bosses/Teiu/dead state/dead_state.gd
-res://scenes/Bosses/teiu/teiu.tscn
 res://scenes/Bosses/teiu/teiu/teiu.tscn
+res://scenes/Collectibles/coin/coin.gd
+res://assets/button theme/game_over.tres
+res://scenes/Projectiles/stone/stone.tscn
+res://scenes/Enemies/enemy/enemy.tscn
+res://scenes/Enemies/falcao/falcao.tscn
+res://scenes/Projectiles/bullet/bullet.tscn
+res://scenes/Levels/final level/final_level.tscn
+res://scenes/Levels/final level/final_level.gd
+res://scenes/Game/game/game.gd
+res://scenes/Bosses/teiu/teiu/teiu.gd
+res://scenes/Bosses/teiu/jump state/jump_state.gd
+res://scenes/Bosses/teiu/stone attack state/stone_attack_state.gd
 res://scenes/Bosses/teiu/follow state/follow_state.gd
 res://scenes/Bosses/teiu/melee attack state/melee_attack_state.gd
-res://scenes/Bosses/teiu/fsm/fsm.gd
-res://scenes/Bosses/teiu/idle state/idle_state.gd
-res://scenes/Bosses/teiu/teiu/teiu.gd
-res://scenes/Game/player/player.gd
-res://scenes/Levels/final level/final_level.tscn
-res://scenes/Levels/level 3/level_3.tscn
-res://scenes/Collectibles/goal/goal.tscn
 res://scenes/Bosses/teiu/teiu state/teiu_state.gd
-res://scenes/Game/game/game.gd
-res://scenes/Game/player/player.tscn
-res://scenes/Bosses/teiu/Room Test/Room_Test.tscn
-res://scenes/Bosses/old teiu/teiu/teiu.tscn
-res://scenes/Bosses/old teiu/teiu/teiu.gd
-res://scenes/Bosses/teiu/melee attack/melee_attack.gd
-res://scenes/Game/game/game.tscn
-res://scenes/Killzone/killzone.gd
-res://scenes/Game/game over/game_over.gd
-res://scenes/Game/game over/game_over.tscn
-res://assets/button theme/game_over.tres
+res://scenes/Bosses/teiu/idle state/idle_state.gd
+res://scenes/Bosses/teiu/minions attack state/minions_attack_state.gd
+res://scenes/Bosses/teiu/dead state/dead_state.gd
+res://singletons/Signal Manager/signal_manager.gd

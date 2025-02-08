@@ -1,0 +1,1 @@
+class_name Minions_Attack_State extends Teiu_State

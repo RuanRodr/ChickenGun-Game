@@ -15,3 +15,5 @@ signal goal_collected
 signal died
 signal on_hit_player
 signal player_fell
+signal stone_off_screen
+signal teiu_is_dead

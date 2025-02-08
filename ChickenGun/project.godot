@@ -17,7 +17,7 @@ config/icon="res://icon.svg"
 
 [autoload]
 
-Signal_Manager="*res://singletons/signal_manager/signal_manager.gd"
+Signal_Manager="*res://singletons/Signal Manager/signal_manager.gd"
 
 [input]
 

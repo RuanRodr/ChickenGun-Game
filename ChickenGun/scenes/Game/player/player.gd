@@ -8,12 +8,12 @@ static var life: int = 3
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 
 @onready var animated_sprite = $AnimatedSprite2D
-@onready var bullet_scene = preload("res://scenes/Bullet/bullet.tscn")
+@onready var bullet_scene = preload("res://scenes/Projectiles/bullet/bullet.tscn")
 @onready var muzzle = $Muzzle  # Referência ao nó Muzzle
 @onready var collision_shape_2d: CollisionShape2D = $CollisionShape2D
 @onready var camera_2d: Camera2D = $Camera2D
 
-const BULLETS = preload("res://scenes/Bullet/bullet.tscn")
+const BULLETS = preload("res://scenes/Projectiles/bullet/bullet.tscn")
 
 func _physics_process(delta: float) -> void:
 	# Add the gravity.

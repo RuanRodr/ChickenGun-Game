@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=3 uid="uid://bi42m1ao6mbe4"]
+[gd_scene load_steps=14 format=3 uid="uid://bi42m1ao6mbe4"]
 
 [ext_resource type="Script" path="res://scenes/Enemies/falcao/falcao.gd" id="1_hcspx"]
 [ext_resource type="Texture2D" uid="uid://ciq24ucc84fsl" path="res://assets/sprites/FalcaoAndar.png" id="1_y78d5"]
@@ -54,13 +54,16 @@ animations = [{
 "speed": 5.0
 }]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_02yop"]
-size = Vector2(11.6836, 18)
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_edpn8"]
+size = Vector2(21, 22)
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_xrcmu"]
-size = Vector2(12, 18)
+[sub_resource type="CircleShape2D" id="CircleShape2D_i60p3"]
+radius = 1.0
 
-[node name="Falcão" type="Node2D" groups=["inimigos"]]
+[sub_resource type="CircleShape2D" id="CircleShape2D_owrp5"]
+radius = 1.0
+
+[node name="Falcão" type="CharacterBody2D" groups=["inimigos"]]
 position = Vector2(0, 1)
 script = ExtResource("1_hcspx")
 
@@ -71,19 +74,9 @@ sprite_frames = SubResource("SpriteFrames_jmrvm")
 autoplay = "default"
 frame_progress = 0.407684
 
-[node name="Killzone" parent="." instance=ExtResource("2_83m47")]
-position = Vector2(-1, -11)
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Killzone"]
-shape = SubResource("RectangleShape2D_02yop")
-
-[node name="RayCastRight" type="RayCast2D" parent="."]
-position = Vector2(-2, -6)
-target_position = Vector2(10, 0)
-
-[node name="RayCastLeft" type="RayCast2D" parent="."]
-position = Vector2(-2, -6)
-target_position = Vector2(-9, 0)
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0.5, -13)
+shape = SubResource("RectangleShape2D_edpn8")
 
 [node name="Hitbox" type="Area2D" parent="." groups=["inimigos"]]
 position = Vector2(-1, -11)
@@ -91,6 +84,15 @@ collision_layer = 4
 collision_mask = 8
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Hitbox"]
-shape = SubResource("RectangleShape2D_xrcmu")
+position = Vector2(0, -3)
+shape = SubResource("CircleShape2D_i60p3")
+
+[node name="Killzone" parent="." instance=ExtResource("2_83m47")]
+position = Vector2(-1, -11)
+collision_layer = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Killzone"]
+position = Vector2(0, -3)
+shape = SubResource("CircleShape2D_owrp5")
 
 [connection signal="body_entered" from="Hitbox" to="." method="_on_hitbox_body_entered"]

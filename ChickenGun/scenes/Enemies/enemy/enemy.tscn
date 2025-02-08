@@ -1,0 +1,30 @@
+[gd_scene load_steps=6 format=3 uid="uid://q35c6wj3yvlx"]
+
+[ext_resource type="Script" path="res://scenes/Enemies/enemy/enemy.gd" id="1_jvl3h"]
+[ext_resource type="PackedScene" uid="uid://dwpf8re4uiwwh" path="res://scenes/Killzone/killzone.tscn" id="1_p17mu"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_0df6w"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_wvmi6"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_edgms"]
+
+[node name="Enemy" type="CharacterBody2D"]
+script = ExtResource("1_jvl3h")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_0df6w")
+
+[node name="HitBox" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="HitBox"]
+shape = SubResource("CircleShape2D_wvmi6")
+
+[node name="Killzone" parent="." instance=ExtResource("1_p17mu")]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Killzone"]
+shape = SubResource("CircleShape2D_edgms")
+
+[connection signal="body_entered" from="HitBox" to="." method="_on_hitbox_body_entered"]

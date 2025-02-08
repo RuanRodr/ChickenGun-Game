@@ -7,7 +7,9 @@ func _ready() -> void:
 	
 func on_lower_limit_body_entered(body: Node2D) -> void:
 	if body is Player:
-		body.life += -1
-		Signal_Manager.player_fell.emit()
-		Signal_Manager.died.emit()
+		body.life -= 1
+		if body.life == 0:
+			Signal_Manager.died.emit()
+		else: 
+			Signal_Manager.player_fell.emit()
 	
