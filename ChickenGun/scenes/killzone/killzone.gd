@@ -3,6 +3,7 @@ class_name Killzone extends Area2D
 const KNOCKBACK_INTENSITY: Vector2 = Vector2(25.0, 0.0) 
 
 static var is_player_invulnerable: bool = false
+static var is_player_colliding: bool = false
 
 var player: Player
 var tween: Tween
@@ -12,18 +13,16 @@ var tween: Tween
 
 func _on_body_entered(body: Node2D) -> void:
 	if body is Player:
+		is_player_colliding = true
 		player = body
 		if not is_player_invulnerable: player.life -= 1
 		if player.life == 0: 
 			kill_player()
 		else:
-			tween = get_tree().create_tween()
-			implement_flash()
-			await tween.finished
-			is_player_invulnerable = false
-			tween.kill()
+			hit_player()
 		
 func implement_flash() -> void:
+	tween = get_tree().create_tween()
 	is_player_invulnerable = true
 	tween.tween_property(player, "modulate", Color(1, 0.392, 0.392), 0.2)
 	for i in range(0,3): 
@@ -40,7 +39,12 @@ func kill_player() -> void:
 
 func _on_body_exited(body: Node2D) -> void:
 	if body is Player:
-		pass
+		is_player_colliding = false
 		
-
+func hit_player() -> void:
+		implement_flash()
+		await tween.finished
+		is_player_invulnerable = false
+		tween.kill()
+		if is_player_colliding: _on_body_entered(player)
 		
