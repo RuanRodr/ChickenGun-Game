@@ -44,4 +44,3 @@ func kill_player() -> void:
 	await get_tree().create_timer(1.0).timeout
 	Engine.time_scale = 1.0
 	Signal_Manager.died.emit()
-	

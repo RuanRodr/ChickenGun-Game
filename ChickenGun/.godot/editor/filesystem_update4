@@ -21,3 +21,4 @@ res://singletons/Signal Manager/signal_manager.gd
 res://scenes/Game/game/game.tscn
 res://scenes/Game/hud/hud.tscn
 res://scenes/Game/game over/game_over.tscn
+res://scenes/Killzone/killzone.gd
