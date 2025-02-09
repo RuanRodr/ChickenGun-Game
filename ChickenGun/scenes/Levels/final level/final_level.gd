@@ -12,6 +12,7 @@ var boss_life_max: int
 func _ready() -> void:
 	boss_life_max = teiu.life
 	teiu.player_detection.body_entered.connect(on_boss_fight_start)
+	Signal_Manager.died.connect(on_died)
 	Signal_Manager.teiu_is_dead.connect(on_boss_slain)
 	
 func _process(delta: float) -> void:
@@ -35,3 +36,10 @@ func on_boss_slain() -> void:
 	
 func update_boss_life() -> void:
 	boss_life.value = 100 * teiu.life / boss_life_max
+	
+func on_died() -> void:
+	boss_fight.queue_free()
+	boss_life.queue_free()
+	boss_slain.queue_free()
+	
+	

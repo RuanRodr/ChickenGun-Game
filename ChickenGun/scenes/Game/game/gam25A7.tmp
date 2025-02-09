@@ -1,0 +1,21 @@
+[gd_scene load_steps=6 format=3 uid="uid://bd117h0fa7m4a"]
+
+[ext_resource type="Script" path="res://scenes/Game/game/game.gd" id="1_gdaj8"]
+[ext_resource type="PackedScene" uid="uid://yhpft6re1pow" path="res://scenes/Game/hud/hud.tscn" id="2_l2bfe"]
+[ext_resource type="PackedScene" uid="uid://d0cfa7xcnoiva" path="res://scenes/Game/player/player.tscn" id="4_0mscr"]
+[ext_resource type="PackedScene" uid="uid://b7ttd6r2ej4kq" path="res://scenes/Game/pause/pause_menu.tscn" id="5_sgu1n"]
+[ext_resource type="PackedScene" uid="uid://r62w6lovct0f" path="res://scenes/Game/music/music.tscn" id="6_t6d7r"]
+
+[node name="Game" type="Node"]
+script = ExtResource("1_gdaj8")
+
+[node name="Current Level" type="Node" parent="."]
+
+[node name="Player" parent="." instance=ExtResource("4_0mscr")]
+position = Vector2(0, 0)
+
+[node name="HUD" parent="." instance=ExtResource("2_l2bfe")]
+
+[node name="Music" parent="." instance=ExtResource("6_t6d7r")]
+
+[node name="Pause" parent="." instance=ExtResource("5_sgu1n")]

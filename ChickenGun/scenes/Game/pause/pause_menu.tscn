@@ -90,6 +90,7 @@ theme_override_constants/separation = 20
 alignment = 1
 
 [node name="resume_btn" type="Button" parent="Pause/MarginContainer/HBoxContainer/VBoxContainer"]
+process_mode = 3
 custom_minimum_size = Vector2(200, 60)
 layout_mode = 2
 size_flags_horizontal = 4
@@ -98,6 +99,7 @@ theme_override_fonts/font = ExtResource("1_y4156")
 text = "RESUME"
 
 [node name="menu_bnt" type="Button" parent="Pause/MarginContainer/HBoxContainer/VBoxContainer"]
+process_mode = 3
 custom_minimum_size = Vector2(200, 60)
 layout_mode = 2
 theme = SubResource("Theme_3f0kg")
@@ -105,6 +107,7 @@ text = "MAIN MENU
 "
 
 [node name="quit_btn" type="Button" parent="Pause/MarginContainer/HBoxContainer/VBoxContainer"]
+process_mode = 3
 custom_minimum_size = Vector2(200, 60)
 layout_mode = 2
 size_flags_horizontal = 4
@@ -113,3 +116,5 @@ theme_override_fonts/font = ExtResource("1_y4156")
 text = "QUIT GAME"
 
 [connection signal="pressed" from="Pause/MarginContainer/HBoxContainer/VBoxContainer/resume_btn" to="Pause" method="_on_resume_btn_pressed"]
+[connection signal="pressed" from="Pause/MarginContainer/HBoxContainer/VBoxContainer/menu_bnt" to="Pause" method="_on_menu_bnt_pressed"]
+[connection signal="pressed" from="Pause/MarginContainer/HBoxContainer/VBoxContainer/quit_btn" to="Pause" method="_on_quit_btn_pressed"]

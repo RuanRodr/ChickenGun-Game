@@ -1,18 +1,15 @@
-extends Control
+class_name Pause extends Control
 
 @onready var resume_btn: Button = $MarginContainer/HBoxContainer/VBoxContainer/resume_btn
-#@onready var hud: CanvasLayer = $"res://scenes/menu/hud/hud.tscn"
 @onready var menu_bnt: Button = $MarginContainer/HBoxContainer/VBoxContainer/menu_bnt
 @onready var quit_btn: Button = $MarginContainer/HBoxContainer/VBoxContainer/quit_btn
 
 func _ready():
-	resume_btn.pressed.connect(_on_resume_btn_pressed)
 	visible= false
 
 func _unhandled_input(event):
 	if event.is_action_pressed("esc"):
 		visible=true
-		#hud.visible= false
 		get_tree().paused = true
 		resume_btn.grab_focus()
 

@@ -250,9 +250,10 @@ text = "Olá, bem vindo
 pular - espaço"
 
 [node name="Player Spawn" type="Marker2D" parent="."]
-position = Vector2(-425, -24)
+position = Vector2(-412, -57)
 
 [node name="goal" parent="." instance=ExtResource("10_bj4x4")]
+position = Vector2(293, 5)
 
 [node name="Coins" type="Node" parent="."]
 
@@ -337,11 +338,9 @@ position = Vector2(405, 64)
 
 [node name="Falcão 2" parent="inimigos" instance=ExtResource("9_uq6qb")]
 position = Vector2(-210, 14)
-travel_range_factor = 60.0
 
 [node name="Minhocao 2" parent="inimigos" instance=ExtResource("8_0ucbj")]
 position = Vector2(-132, 37)
-travel_range_factor = 60.0
 
 [node name="Jaré" parent="inimigos" instance=ExtResource("7_o5rdt")]
 position = Vector2(861, 32)
@@ -357,15 +356,12 @@ position = Vector2(728, 12)
 
 [node name="Falcão2" parent="inimigos" instance=ExtResource("9_uq6qb")]
 position = Vector2(1051, 1)
-speed_factor = 0.0
 
 [node name="Falcão3" parent="inimigos" instance=ExtResource("9_uq6qb")]
 position = Vector2(1130, -46)
-speed_factor = 0.0
 
 [node name="Falcão4" parent="inimigos" instance=ExtResource("9_uq6qb")]
 position = Vector2(1251, -65)
-speed_factor = 0.0
 
 [node name="Lower Limit" type="Area2D" parent="."]
 

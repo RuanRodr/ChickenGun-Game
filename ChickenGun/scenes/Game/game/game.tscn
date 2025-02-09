@@ -12,10 +12,11 @@ script = ExtResource("1_gdaj8")
 [node name="Current Level" type="Node" parent="."]
 
 [node name="Player" parent="." instance=ExtResource("4_0mscr")]
-position = Vector2(-50, -10)
+position = Vector2(0, 0)
 
 [node name="HUD" parent="." instance=ExtResource("2_l2bfe")]
 
 [node name="Music" parent="." instance=ExtResource("6_t6d7r")]
 
 [node name="Pause" parent="." instance=ExtResource("5_sgu1n")]
+visible = false
