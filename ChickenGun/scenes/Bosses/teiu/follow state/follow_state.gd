@@ -4,7 +4,7 @@ const SPEED_INTENSITY: float = 50.0
 
 func enter(teiu: Teiu) -> void:
 	super(teiu)
-	teiu.animated_sprite_2d.play("idle") 
+	teiu.animated_sprite_2d.play("follow") 
 	print("Vc entrou no Follow State")
 	
 func physical_update(delta: float) -> void:

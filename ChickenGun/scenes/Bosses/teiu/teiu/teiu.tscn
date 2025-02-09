@@ -1,10 +1,14 @@
-[gd_scene load_steps=45 format=3 uid="uid://bk1jewgdc4fu3"]
+[gd_scene load_steps=53 format=3 uid="uid://bk1jewgdc4fu3"]
 
 [ext_resource type="Script" path="res://scenes/Bosses/teiu/teiu/teiu.gd" id="1_yyg2m"]
 [ext_resource type="Texture2D" uid="uid://8k1bwfgvkx37" path="res://assets/sprites/Teiu/Ataque 1/pixil-frame-0.png" id="2_bv3qx"]
+[ext_resource type="Texture2D" uid="uid://cldd4pinhli14" path="res://assets/sprites/Teiu/TeiuAndar/pixil-frame-0.png" id="2_cwhtq"]
+[ext_resource type="Texture2D" uid="uid://dujo3r2f6kyqa" path="res://assets/sprites/Teiu/TeiuAndar/pixil-frame-1.png" id="3_60y3f"]
 [ext_resource type="Texture2D" uid="uid://40i7tsy8ocnr" path="res://assets/sprites/Teiu/Ataque 1/pixil-frame-1.png" id="3_mg3yl"]
+[ext_resource type="Texture2D" uid="uid://chclvidptwu3k" path="res://assets/sprites/Teiu/TeiuAndar/pixil-frame-2.png" id="4_i4lko"]
 [ext_resource type="Texture2D" uid="uid://cjb83ryf2rj6r" path="res://assets/sprites/Teiu/Ataque 1/pixil-frame-2.png" id="4_tfpfh"]
 [ext_resource type="Texture2D" uid="uid://cys78pd7xigfj" path="res://assets/sprites/Teiu/Ataque 1/pixil-frame-3.png" id="5_4481h"]
+[ext_resource type="Texture2D" uid="uid://c8brvgkatk0r" path="res://assets/sprites/Teiu/TeiuAndar/pixil-frame-3.png" id="5_tvy5i"]
 [ext_resource type="Texture2D" uid="uid://7q8t5otc2qch" path="res://assets/sprites/Teiu/Ataque 1/pixil-frame-4.png" id="6_otuqs"]
 [ext_resource type="Texture2D" uid="uid://di37xt25mjyvo" path="res://assets/sprites/Teiu/RabadaTeiu-Ataque2/pixil-frame-0.png" id="6_ywu33"]
 [ext_resource type="Texture2D" uid="uid://dhbtqmxhrrcgr" path="res://assets/sprites/Teiu/RabadaTeiu-Ataque2/pixil-frame-1.png" id="7_o5a38"]
@@ -20,6 +24,22 @@
 [ext_resource type="Texture2D" uid="uid://c6gaxkxbs218n" path="res://assets/sprites/Teiu/Idle/pixil-frame-2.png" id="12_7hspa"]
 [ext_resource type="Texture2D" uid="uid://jvhqj0cnefvk" path="res://assets/sprites/Teiu/Idle/pixil-frame-3.png" id="13_u3pc7"]
 [ext_resource type="PackedScene" uid="uid://dwpf8re4uiwwh" path="res://scenes/Killzone/killzone.tscn" id="14_7myu7"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hp06v"]
+atlas = ExtResource("2_cwhtq")
+region = Rect2(0, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_je6sw"]
+atlas = ExtResource("3_60y3f")
+region = Rect2(0, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mely0"]
+atlas = ExtResource("4_i4lko")
+region = Rect2(0, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i1nfr"]
+atlas = ExtResource("5_tvy5i")
+region = Rect2(0, 0, 100, 100)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_rlm0u"]
 atlas = ExtResource("10_iksq0")
@@ -99,6 +119,23 @@ region = Rect2(0, 0, 100, 100)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_qmur8"]
 animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hp06v")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_je6sw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mely0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i1nfr")
+}],
+"loop": true,
+"name": &"follow",
+"speed": 5.0
+}, {
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_rlm0u")
@@ -189,7 +226,7 @@ script = ExtResource("1_yyg2m")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_qmur8")
-animation = &"tailed"
+animation = &"follow"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(8, 12)
