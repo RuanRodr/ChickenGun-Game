@@ -10,7 +10,7 @@ const levels_paths: PackedStringArray = [LEVEL_1_PATH, LEVEL_2_PATH, LEVEL_3_PAT
 const TRANSITION = preload("res://scenes/Game/transition/transition.tscn")
 const GAME_OVER = preload("res://scenes/Game/game over/game_over.tscn")
 
-var current_level_number: int = 3
+var current_level_number: int = 0
 
 @onready var current_level: Node = $"Current Level"
 @onready var player: Player = $Player

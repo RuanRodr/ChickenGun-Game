@@ -1,18 +1,30 @@
-res://scenes/Menu/main_menu/main_menu.tscn
-res://assets/button theme/game_over.tres
-res://assets/button theme/title_screen.tres
-res://scenes/Game/pause/pause_menu.gd
-res://scenes/Game/pause/pause_menu.tscn
 res://scenes/Levels/final level/final_level.tscn
-res://scenes/Bosses/teiu/teiu/teiu.gd
-res://scenes/Levels/final level/final_level.gd
-res://scenes/Bosses/teiu/follow state/follow_state.gd
-res://scenes/Bosses/teiu/stone attack state/stone_attack_state.gd
-res://scenes/Bosses/teiu/dead state/dead_state.gd
 res://scenes/Bosses/teiu/teiu/teiu.tscn
-res://scenes/Bosses/teiu/melee attack state/melee_attack_state.gd
-res://scenes/Bosses/teiu/teiu state/teiu_state.gd
-res://scenes/Bosses/teiu/idle state/idle_state.gd
-res://scenes/Projectiles/stone/stone.gd
 res://scenes/Projectiles/stone/stone.tscn
-res://scenes/Bosses/teiu/jump state/jump_state.gd
+res://scenes/Game/player/player.tscn
+res://scenes/Enemies/falcao/falcao.tscn
+res://scenes/Enemies/jare/jaré.tscn
+res://scenes/Enemies/minhocao/minhocao.tscn
+res://scenes/Projectiles/bullet/bullet.tscn
+res://scenes/Projectiles/bullet/bullet_worm.tscn
+res://scenes/killzone/killzone.tscn
+res://assets/button theme/game_over.tres
+res://scenes/Menu/main_menu/main_menu.gd
+res://scenes/Menu/options_menu/options_menu.gd
+res://scenes/menu/options_menu_button/options_menu_button.tscn
+res://assets/button theme/title_screen.tres
+res://scenes/menu/options_menu/options_menu.tscn
+res://scenes/menu/main_menu/main_menu.tscn
+res://scenes/Menu/hotkey_rebind_button/hotkey_rebind_button.tscn
+res://scenes/Menu/options_menu/options_menu.tscn
+res://scenes/Menu/options_menu_button/options_menu_button.tscn
+res://scenes/Menu/main_menu/main_menu.tscn
+res://scenes/Menu/custom_button/custom_button.tscn
+res://scenes/Menu/resolution_mode_button/resolution_mode_button.tscn
+res://scenes/Menu/settings_tab_container/settings_tab_container.tscn
+res://scenes/Menu/window_mode_button/window_mode_button.tscn
+res://scenes/Menu/audio_slider_settings/audio_slider_settings.tscn
+res://scenes/Menu/credits/credits.tscn
+res://scenes/Killzone/killzone.tscn
+res://scenes/Game/game/game.gd
+res://scenes/Levels/level 2/level_2.tscn

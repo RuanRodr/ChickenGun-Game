@@ -1,0 +1,59 @@
+[gd_scene load_steps=9 format=3 uid="uid://r77fj8bfhv8u"]
+
+[ext_resource type="Script" path="res://scenes/Projectiles/bullet/bullet_worm.gd" id="1_ol7ki"]
+[ext_resource type="PackedScene" uid="uid://dwpf8re4uiwwh" path="res://scenes/Killzone/killzone.tscn" id="2_02y0k"]
+[ext_resource type="Texture2D" uid="uid://bek4s2mu5gbae" path="res://assets/sprites/BALAMinhoca.png" id="3_ta2vh"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ek6o6"]
+size = Vector2(6, 2)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x58ay"]
+atlas = ExtResource("3_ta2vh")
+region = Rect2(3, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xuckh"]
+atlas = ExtResource("3_ta2vh")
+region = Rect2(55, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jui86"]
+atlas = ExtResource("3_ta2vh")
+region = Rect2(107, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_p7wo5"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x58ay")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xuckh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jui86")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="WormBullet" type="CharacterBody2D"]
+collision_layer = 8
+collision_mask = 2
+script = ExtResource("1_ol7ki")
+
+[node name="Killzone" parent="." instance=ExtResource("2_02y0k")]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Killzone"]
+shape = SubResource("RectangleShape2D_ek6o6")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 1.5
+one_shot = true
+autostart = true
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(0.45, 0.45)
+sprite_frames = SubResource("SpriteFrames_p7wo5")
+frame_progress = 0.711633
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

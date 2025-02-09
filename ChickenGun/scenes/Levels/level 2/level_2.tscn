@@ -208,4 +208,4 @@ shape = SubResource("WorldBoundaryShape2D_mf65m")
 position = Vector2(85, 63)
 
 [node name="Player Spawn" type="Marker2D" parent="."]
-position = Vector2(-223, -33)
+position = Vector2(-115, -145)

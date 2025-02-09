@@ -4,6 +4,7 @@ const SPEED = 110.0
 const JUMP_VELOCITY = -250.0
 
 static var life: int = 3
+static var score: int = 0
 
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 
@@ -12,8 +13,13 @@ var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 @onready var muzzle = $Muzzle  # Referência ao nó Muzzle
 @onready var collision_shape_2d: CollisionShape2D = $CollisionShape2D
 @onready var camera_2d: Camera2D = $Camera2D
+@onready var timer: Timer = $Timer
 
 const BULLETS = preload("res://scenes/Projectiles/bullet/bullet.tscn")
+
+func _ready():
+	life = 3
+	score = 0
 
 func _physics_process(delta: float) -> void:
 	# Add the gravity.
@@ -30,8 +36,10 @@ func _physics_process(delta: float) -> void:
 	#flip the sprite
 	if direction > 0:
 		animated_sprite.flip_h = false
+		muzzle.position.x *= -1
 	elif direction < 0:
 		animated_sprite.flip_h = true
+		muzzle.position.x *= -1
 		
 	#play animations
 	if is_on_floor():

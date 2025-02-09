@@ -1,9 +1,9 @@
 [gd_scene load_steps=5 format=3 uid="uid://dny40ih02jt6u"]
 
-[ext_resource type="PackedScene" uid="uid://dmjmmejttoh0j" path="res://scenes/menu/hotkey_rebind_button/hotkey_rebind_button.tscn" id="1_2xivp"]
-[ext_resource type="PackedScene" uid="uid://b3kiv0cbxb1wd" path="res://scenes/menu/audio_slider_settings/audio_slider_settings.tscn" id="1_4ppgu"]
-[ext_resource type="PackedScene" uid="uid://dw2xrvnsa84ga" path="res://scenes/menu/window_mode_button/window_mode_button.tscn" id="1_igwa3"]
-[ext_resource type="PackedScene" uid="uid://cmdek81ch3bln" path="res://scenes/menu/resolution_mode_button/resolution_mode_button.tscn" id="2_74y4g"]
+[ext_resource type="PackedScene" uid="uid://dmjmmejttoh0j" path="res://scenes/Menu/hotkey_rebind_button/hotkey_rebind_button.tscn" id="1_2xivp"]
+[ext_resource type="PackedScene" uid="uid://b3kiv0cbxb1wd" path="res://scenes/Menu/audio_slider_settings/audio_slider_settings.tscn" id="1_4ppgu"]
+[ext_resource type="PackedScene" uid="uid://dw2xrvnsa84ga" path="res://scenes/Menu/window_mode_button/window_mode_button.tscn" id="1_igwa3"]
+[ext_resource type="PackedScene" uid="uid://cmdek81ch3bln" path="res://scenes/Menu/resolution_mode_button/resolution_mode_button.tscn" id="2_74y4g"]
 
 [node name="Settings Tab Container" type="Control"]
 layout_mode = 3

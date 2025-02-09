@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://dwpf8re4uiwwh"]
 
-[ext_resource type="Script" path="res://scenes/Killzone/killzone.gd" id="1_h57hq"]
+[ext_resource type="Script" path="res://scenes/Killzone/killzone.gd" id="1_70fpj"]
 
 [sub_resource type="Animation" id="Animation_i1tdn"]
 resource_name = "flash"
@@ -12,7 +12,7 @@ _data = {
 
 [node name="Killzone" type="Area2D"]
 collision_mask = 2
-script = ExtResource("1_h57hq")
+script = ExtResource("1_70fpj")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
