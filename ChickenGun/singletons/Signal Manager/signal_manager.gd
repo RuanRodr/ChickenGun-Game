@@ -17,3 +17,4 @@ signal on_hit_player
 signal player_fell
 signal stone_off_screen
 signal teiu_is_dead
+signal you_win

@@ -1,3 +1,11 @@
+Control
+CanvasLayer
+Button
+HSeparator
+Label
+VBoxContainer
+HBoxContainer
+MarginContainer
 Marker2D
 Node
 Node2D

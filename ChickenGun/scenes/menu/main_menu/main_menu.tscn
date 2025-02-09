@@ -121,3 +121,8 @@ layout_mode = 1
 stream = ExtResource("6_olhjd")
 autoplay = true
 bus = &"Music"
+
+[connection signal="pressed" from="MarginContainer/HBoxContainer/VBoxContainer/start_button" to="." method="_on_start_button_pressed"]
+[connection signal="pressed" from="MarginContainer/HBoxContainer/VBoxContainer/options_button" to="." method="_on_options_button_pressed"]
+[connection signal="pressed" from="MarginContainer/HBoxContainer/VBoxContainer/credits_button" to="." method="_on_credits_button_pressed"]
+[connection signal="pressed" from="MarginContainer/HBoxContainer/VBoxContainer/quit_button" to="." method="_on_quit_button_pressed"]

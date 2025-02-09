@@ -1,4 +1,4 @@
-class_name Main_Menu extends Control
+extends Control
 
 const GAME = preload("res://scenes/Game/game/game.tscn")
 

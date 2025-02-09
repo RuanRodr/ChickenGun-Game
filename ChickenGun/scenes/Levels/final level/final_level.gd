@@ -33,6 +33,7 @@ func on_boss_slain() -> void:
 	animation_player.play("boss slain")
 	await animation_player.animation_finished
 	boss_slain.queue_free()
+	Signal_Manager.you_win.emit()
 	
 func update_boss_life() -> void:
 	boss_life.value = 100 * teiu.life / boss_life_max

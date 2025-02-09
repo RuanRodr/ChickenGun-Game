@@ -10,8 +10,9 @@ const levels_paths: PackedStringArray = [LEVEL_1_PATH, LEVEL_2_PATH, LEVEL_3_PAT
 const TRANSITION = preload("res://scenes/Game/transition/transition.tscn")
 const GAME_OVER = preload("res://scenes/Game/game over/game_over.tscn")
 const PAUSE_MENU = preload("res://scenes/Game/pause/pause_menu.tscn")
+const YOU_WIN = preload("res://scenes/Game/you win/you_win.tscn")
 
-var current_level_number: int = 0
+var current_level_number: int = 3
 
 @onready var current_level: Node = $"Current Level"
 @onready var player: Player = $Player
@@ -21,8 +22,9 @@ func _ready() -> void:
 	Signal_Manager.player_fell.connect(on_player_fell)
 	Signal_Manager.died.connect(on_died)
 	Signal_Manager.goal_collected.connect(on_goal_collected)
+	Signal_Manager.you_win.connect(on_you_win)
 	load_and_add_level() 
-	player.global_position = current_level.get_child(0).get_node("Player Spawn").global_position
+	position_player_at_current_level()
 	
 func on_player_fell() -> void:
 	position_player_at_current_level()
@@ -30,7 +32,8 @@ func on_player_fell() -> void:
 func on_died() -> void:
 	var game_over: Game_Over = GAME_OVER.instantiate()
 	add_child(game_over)
-	player.camera_2d.queue_free()
+	player.queue_free()
+	hud.queue_free()
 	game_over._kill()
 	
 func on_goal_collected() -> void:
@@ -59,4 +62,10 @@ func position_player_at_current_level() -> void:
 	print(player.global_position)
 	print(current_level.get_child(0).get_node("Player Spawn").global_position)
 	
+func on_you_win() -> void:
+	var you_win: You_Win = YOU_WIN.instantiate()
+	get_tree().paused = true
+	add_child(you_win)
+	hud.queue_free()
+	you_win._kill()
 	
