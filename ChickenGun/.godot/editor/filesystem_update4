@@ -11,3 +11,8 @@ res://scenes/Bosses/teiu/stone attack state/stone_attack_state.gd
 res://scenes/Bosses/teiu/dead state/dead_state.gd
 res://scenes/Bosses/teiu/teiu/teiu.tscn
 res://scenes/Bosses/teiu/melee attack state/melee_attack_state.gd
+res://scenes/Bosses/teiu/teiu state/teiu_state.gd
+res://scenes/Bosses/teiu/idle state/idle_state.gd
+res://scenes/Projectiles/stone/stone.gd
+res://scenes/Projectiles/stone/stone.tscn
+res://scenes/Bosses/teiu/jump state/jump_state.gd

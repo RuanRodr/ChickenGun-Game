@@ -1,6 +1,7 @@
 class_name Teiu_State extends Node
 
 var teiu: Teiu
+var percentage_life: float: get = get_percentage_life
 var distance_player: Vector2
 
 func enter(teiu: Teiu) -> void:
@@ -19,3 +20,6 @@ func transition() -> Teiu_State:
 	
 func on_hitbox_entered(body: Node2D) -> void:
 	pass
+	
+func get_percentage_life() -> float:
+	return 100.0 * teiu.life / teiu.MAX_LIFE

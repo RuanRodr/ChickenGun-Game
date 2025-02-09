@@ -31,7 +31,7 @@ animations = [{
 "texture": SubResource("AtlasTexture_8f4xf")
 }],
 "loop": true,
-"name": &"default",
+"name": &"fall",
 "speed": 5.0
 }]
 
@@ -48,7 +48,7 @@ script = ExtResource("1_47iat")
 
 [node name="Sprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_tm075")
-frame_progress = 0.109294
+animation = &"fall"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CircleShape2D_adf1o")

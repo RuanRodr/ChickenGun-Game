@@ -5,6 +5,7 @@ const GRAVITY: float = 30.0
 func enter(teiu: Teiu) -> void:
 	super(teiu)
 	Signal_Manager.teiu_is_dead.emit()
+	teiu.animated_sprite_2d.play("idle")
 	kill_teiu()
 	
 func physical_update(delta: float) -> void:

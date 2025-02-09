@@ -15,6 +15,7 @@ func physical_update(delta: float) -> void:
 	
 func transition() -> Teiu_State:
 	if abs(distance_player.x) < 30.0: return Melee_Attack.new()
-	if teiu.life <= 990 and teiu.life > 980.0 : return Jump_State.new()
+	if percentage_life > 50.0 and percentage_life <= 75.0: return Jump_State.new()
+	if percentage_life > 0.0 and percentage_life <= 25.0: return Jump_State.new()
 	if teiu.life == 0: return Dead_State.new()
 	return null

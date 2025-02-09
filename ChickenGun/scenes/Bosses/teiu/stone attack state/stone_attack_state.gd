@@ -22,7 +22,8 @@ func enter(teiu: Teiu) -> void:
 	spawn_stones()
 	
 func transition() -> Teiu_State:
-	if teiu.life <= 980.0: return Follow_State.new()
+	if percentage_life > 75.0 and percentage_life <= 100.0: return Follow_State.new()
+	if percentage_life > 25.0 and percentage_life <= 50.0: return Follow_State.new()
 	if teiu.life == 0.0: return Dead_State.new()
 	return null
 

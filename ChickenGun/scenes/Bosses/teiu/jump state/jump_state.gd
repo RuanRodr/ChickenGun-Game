@@ -1,7 +1,7 @@
 class_name Jump_State extends Teiu_State
 
-const GRAVITY: float = 200.0
-const JUMP_TIME: float = 2.0
+const GRAVITY: float = 50.0
+const JUMP_TIME: float = 1.0
 
 var jump_direction: float 
 var distance_j: float 

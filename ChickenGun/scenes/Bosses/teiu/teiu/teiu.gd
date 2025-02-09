@@ -1,6 +1,8 @@
 class_name Teiu extends CharacterBody2D
 
-var life: int = 10
+const MAX_LIFE: int = 100
+
+var life: int = MAX_LIFE
 var current_state: Teiu_State
 var player: Player
 var buff: float = 1.0
