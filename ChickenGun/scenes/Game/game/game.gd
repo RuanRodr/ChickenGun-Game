@@ -12,7 +12,7 @@ const GAME_OVER = preload("res://scenes/Game/game over/game_over.tscn")
 const YOU_WIN = preload("res://scenes/Game/you win/you_win.tscn")
 const PAUSE = preload("res://scenes/Game/pause/pause.tscn")
 
-var current_level_number: int = 3
+var current_level_number: int = 0
 
 @onready var current_level: Node = $"Current Level"
 @onready var player: Player = $Player

@@ -1,36 +1,10 @@
-[gd_scene load_steps=8 format=3 uid="uid://sigbdd1ukrc"]
+[gd_scene load_steps=5 format=3 uid="uid://sigbdd1ukrc"]
 
 [ext_resource type="Script" path="res://scenes/Game/you win/you_win.gd" id="1_g8euk"]
 [ext_resource type="FontFile" uid="uid://dbjl1e6kdxpl6" path="res://assets/fonts/PixelOperator8.ttf" id="2_hc04w"]
 [ext_resource type="Theme" uid="uid://bboe8iq4xv723" path="res://assets/button theme/game_over.tres" id="3_5gmgb"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_v4tsr"]
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_swts7"]
-bg_color = Color(0, 0.724038, 0.243579, 1)
-border_width_left = 1
-border_width_top = 1
-border_width_right = 1
-border_width_bottom = 1
-expand_margin_top = 2.0
-expand_margin_bottom = 2.0
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1ous5"]
-bg_color = Color(0.739047, 0.576397, 0, 1)
-border_width_left = 1
-border_width_top = 1
-border_width_right = 1
-border_width_bottom = 1
-expand_margin_top = 2.0
-expand_margin_bottom = 2.0
-
-[sub_resource type="Theme" id="Theme_3f0kg"]
-Button/colors/font_color = Color(1, 1, 1, 1)
-Button/fonts/font = ExtResource("2_hc04w")
-Button/styles/hover_pressed_mirrored = null
-Button/styles/normal = SubResource("StyleBoxFlat_swts7")
-Button/styles/normal_mirrored = null
-Button/styles/pressed = SubResource("StyleBoxFlat_1ous5")
 
 [node name="You Win" type="CanvasLayer"]
 script = ExtResource("1_g8euk")
@@ -85,15 +59,6 @@ layout_mode = 2
 theme_override_constants/separation = 100
 theme_override_styles/separator = SubResource("StyleBoxEmpty_v4tsr")
 
-[node name="restart_btn" type="Button" parent="Control/MarginContainer/HBoxContainer/VBoxContainer"]
-process_mode = 3
-custom_minimum_size = Vector2(200, 60)
-layout_mode = 2
-size_flags_horizontal = 4
-theme = SubResource("Theme_3f0kg")
-theme_override_fonts/font = ExtResource("2_hc04w")
-text = "RESUME"
-
 [node name="quit_btn" type="Button" parent="Control/MarginContainer/HBoxContainer/VBoxContainer"]
 process_mode = 3
 custom_minimum_size = Vector2(200, 60)
@@ -103,5 +68,4 @@ theme = ExtResource("3_5gmgb")
 theme_override_fonts/font = ExtResource("2_hc04w")
 text = "QUIT GAME"
 
-[connection signal="pressed" from="Control/MarginContainer/HBoxContainer/VBoxContainer/restart_btn" to="." method="_on_restart_btn_pressed"]
 [connection signal="pressed" from="Control/MarginContainer/HBoxContainer/VBoxContainer/quit_btn" to="." method="_on_quit_btn_pressed"]

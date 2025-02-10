@@ -28,3 +28,5 @@ res://scenes/Game/game/game.tscn
 res://scenes/Levels/level 3/level_3.tscn
 res://scenes/Game/game over/game_over.tscn
 res://scenes/Game/you win/you_win.tscn
+res://scenes/Game/game/game.gd
+res://scenes/Game/you win/you_win.gd
