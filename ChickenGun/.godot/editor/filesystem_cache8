@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1739138050
+::res://::1739150091
 default_bus_layout.tres::AudioBusLayout::2952593895881318664::1739125693::0::1::::<><>::
 export_presets.cfg::TextFile::-1::1739125693::0::1::::<><>::
 icon.svg::CompressedTexture2D::3050862706883213075::1739125693::1739125990::1::::<><>::
@@ -123,9 +123,9 @@ jaré.tscn::PackedScene::1152899512884248852::1739137572::0::1::::<><>::res://sc
 minhocao.gd::GDScript::-1::1739064223::0::1::::<>Node2D<>::
 minhocao.tscn::PackedScene::7111105654848679183::1739137573::0::1::::<><>::res://scenes/Enemies/minhocao/minhocao.gd<>uid://cvp7nhsrqx2al::::res://assets/sprites/MinhocaoAtaque.png<>uid://bl7g0cq8bo1ku::::res://assets/sprites/Minhocao_Andar_Invertido (1).png<>uid://dwpf8re4uiwwh::::res://scenes/Killzone/killzone.tscn
 ::res://scenes/Game/::1739135294
-::res://scenes/Game/game/::1739138050
-game.gd::GDScript::-1::1739138050::0::1::::Game<>Node<>::
-game.tscn::PackedScene::2652297229941648234::1739138079::0::1::::<><>::res://scenes/Game/game/game.gd<>uid://yhpft6re1pow::::res://scenes/Game/hud/hud.tscn<>uid://d0cfa7xcnoiva::::res://scenes/Game/player/player.tscn<>uid://b7ttd6r2ej4kq::::res://scenes/Game/pause/pause_menu.tscn<>uid://r62w6lovct0f::::res://scenes/Game/music/music.tscn
+::res://scenes/Game/game/::1739138129
+game.gd::GDScript::-1::1739138129::0::1::::Game<>Node<>::
+game.tscn::PackedScene::2652297229941648234::1739138079::0::1::::<><>::res://scenes/Game/game/game.gd<>uid://yhpft6re1pow::::res://scenes/Game/hud/hud.tscn<>uid://d0cfa7xcnoiva::::res://scenes/Game/player/player.tscn<>uid://b7ttd6r2ej4kq::::res://scenes/Game/pause/pause.tscn<>uid://r62w6lovct0f::::res://scenes/Game/music/music.tscn
 ::res://scenes/Game/game over/::1739137575
 game_over.gd::GDScript::-1::1739125693::0::1::::Game_Over<>Control<>::
 game_over.tscn::PackedScene::1110550344931741662::1739137575::0::1::::<><>::res://scenes/Game/game over/game_over.gd<>uid://dbjl1e6kdxpl6::::res://assets/fonts/PixelOperator8.ttf<>uid://bboe8iq4xv723::::res://assets/button theme/game_over.tres
@@ -135,10 +135,10 @@ hud.tscn::PackedScene::1699903622063594014::1739064565::0::1::::<><>::res://scen
 ::res://scenes/Game/music/::1739125693
 music.gd::GDScript::-1::1739125693::0::1::::Music<>AudioStreamPlayer2D<>::
 music.tscn::PackedScene::1258886344373969283::1739125693::0::1::::<><>::uid://iw7sopyr77do::::res://assets/music/galinhabotaovograndemimficarfeliz.mp3<>res://scenes/Game/music/music.gd
-::res://scenes/Game/pause/::1739138050
+::res://scenes/Game/pause/::1739138136
 pause.gd::GDScript::-1::1739133239::0::1::::Pause<>Control<>::
+pause.tscn::PackedScene::4672847493399569536::1739138136::0::1::::<><>::res://scenes/Game/pause/pause.gd<>uid://dbjl1e6kdxpl6::::res://assets/fonts/PixelOperator8.ttf
 pause_menu.tres::Theme::3138028939386349899::1739125693::0::1::::<><>::uid://dbjl1e6kdxpl6::::res://assets/fonts/PixelOperator8.ttf
-pause_menu.tscn::PackedScene::4672847493399569536::1739138061::0::1::::<><>::res://scenes/Game/pause/pause.gd<>uid://dbjl1e6kdxpl6::::res://assets/fonts/PixelOperator8.ttf
 ::res://scenes/Game/player/::1739137572
 player.gd::GDScript::-1::1739126112::0::1::::Player<>CharacterBody2D<>::
 player.tscn::PackedScene::8918417198888574250::1739137572::0::1::::<><>::res://scenes/Game/player/player.gd<>uid://c82ttxqe4m8qj::::res://assets/sprites/CanjicaStop.png<>uid://bvh0bt84c3yiv::::res://assets/sprites/CanjicaAndar.png

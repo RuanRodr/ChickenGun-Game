@@ -32,6 +32,7 @@ Button/styles/normal_mirrored = null
 Button/styles/pressed = SubResource("StyleBoxFlat_1ous5")
 
 [node name="Pause" type="CanvasLayer"]
+process_mode = 3
 
 [node name="Pause" type="Control" parent="."]
 layout_mode = 3

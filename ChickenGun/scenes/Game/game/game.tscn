@@ -19,4 +19,3 @@ position = Vector2(0, 0)
 [node name="Music" parent="." instance=ExtResource("6_t6d7r")]
 
 [node name="Pause" parent="." instance=ExtResource("5_sgu1n")]
-visible = false

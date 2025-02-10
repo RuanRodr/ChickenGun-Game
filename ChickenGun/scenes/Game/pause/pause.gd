@@ -15,7 +15,6 @@ func _unhandled_input(event):
 
 func _on_resume_btn_pressed() -> void:
 	visible= false
-	#hud.visible= true
 	get_tree().paused = false
 	
 func _on_menu_bnt_pressed() -> void:
