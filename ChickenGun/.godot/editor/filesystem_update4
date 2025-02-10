@@ -41,3 +41,4 @@ res://scenes/Game/you win/you_win.tscn
 res://scenes/Game/you win/you_win.gd
 res://singletons/Signal Manager/signal_manager.gd
 res://scenes/Bosses/teiu/teiu/teiu.gd
+res://scenes/Game/pause/pause.tscn

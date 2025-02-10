@@ -1,7 +1,7 @@
 [gd_scene load_steps=7 format=3 uid="uid://b7ttd6r2ej4kq"]
 
-[ext_resource type="Script" path="res://scenes/Game/pause/pause_menu.gd" id="1_vh7y5"]
-[ext_resource type="FontFile" uid="uid://dbjl1e6kdxpl6" path="res://assets/fonts/PixelOperator8.ttf" id="1_y4156"]
+[ext_resource type="Script" path="res://scenes/Game/pause/pause.gd" id="1_7nbbc"]
+[ext_resource type="FontFile" uid="uid://dbjl1e6kdxpl6" path="res://assets/fonts/PixelOperator8.ttf" id="2_6eody"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_00h3q"]
 
@@ -25,7 +25,7 @@ expand_margin_bottom = 2.0
 
 [sub_resource type="Theme" id="Theme_3f0kg"]
 Button/colors/font_color = Color(1, 1, 1, 1)
-Button/fonts/font = ExtResource("1_y4156")
+Button/fonts/font = ExtResource("2_6eody")
 Button/styles/hover_pressed_mirrored = null
 Button/styles/normal = SubResource("StyleBoxFlat_swts7")
 Button/styles/normal_mirrored = null
@@ -42,7 +42,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("1_vh7y5")
+script = ExtResource("1_7nbbc")
 
 [node name="MarginContainer" type="MarginContainer" parent="Pause"]
 layout_mode = 1
@@ -71,7 +71,7 @@ size_flags_horizontal = 4
 theme_override_colors/font_color = Color(1, 1, 0, 1)
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_constants/outline_size = 24
-theme_override_fonts/font = ExtResource("1_y4156")
+theme_override_fonts/font = ExtResource("2_6eody")
 theme_override_font_sizes/font_size = 64
 text = "PAUSE
 "
@@ -95,7 +95,7 @@ custom_minimum_size = Vector2(200, 60)
 layout_mode = 2
 size_flags_horizontal = 4
 theme = SubResource("Theme_3f0kg")
-theme_override_fonts/font = ExtResource("1_y4156")
+theme_override_fonts/font = ExtResource("2_6eody")
 text = "RESUME"
 
 [node name="menu_bnt" type="Button" parent="Pause/MarginContainer/HBoxContainer/VBoxContainer"]
@@ -112,7 +112,7 @@ custom_minimum_size = Vector2(200, 60)
 layout_mode = 2
 size_flags_horizontal = 4
 theme = SubResource("Theme_3f0kg")
-theme_override_fonts/font = ExtResource("1_y4156")
+theme_override_fonts/font = ExtResource("2_6eody")
 text = "QUIT GAME"
 
 [connection signal="pressed" from="Pause/MarginContainer/HBoxContainer/VBoxContainer/resume_btn" to="Pause" method="_on_resume_btn_pressed"]

@@ -9,8 +9,8 @@ const levels_paths: PackedStringArray = [LEVEL_1_PATH, LEVEL_2_PATH, LEVEL_3_PAT
 
 const TRANSITION = preload("res://scenes/Game/transition/transition.tscn")
 const GAME_OVER = preload("res://scenes/Game/game over/game_over.tscn")
-const PAUSE_MENU = preload("res://scenes/Game/pause/pause_menu.tscn")
 const YOU_WIN = preload("res://scenes/Game/you win/you_win.tscn")
+const PAUSE = preload("res://scenes/Game/pause/pause.tscn")
 
 var current_level_number: int = 3
 
