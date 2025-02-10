@@ -34,8 +34,10 @@ func _physics_process(delta: float) -> void:
 	
 func on_hitbox_entered(body: Node2D) -> void:
 	print("Vc entrou")
+	var current_state_is_idle: bool = current_state is Idle_State
+	var current_state_is_jump: bool = current_state is Jump_State
 	if body is not Bullet: return
 	body.queue_free()
-	if current_state is not Idle_State: life -= 1
+	if not (current_state_is_idle or current_state_is_jump): life -= 1
 	print(life)
 		

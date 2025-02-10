@@ -30,3 +30,4 @@ res://scenes/Game/game over/game_over.tscn
 res://scenes/Game/you win/you_win.tscn
 res://scenes/Game/game/game.gd
 res://scenes/Game/you win/you_win.gd
+res://scenes/Bosses/teiu/teiu/teiu.gd
