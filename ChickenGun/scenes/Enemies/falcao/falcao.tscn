@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://scenes/Enemies/falcao/falcao.gd" id="1_hcspx"]
 [ext_resource type="Texture2D" uid="uid://ciq24ucc84fsl" path="res://assets/sprites/FalcaoAndar.png" id="1_y78d5"]
-[ext_resource type="PackedScene" uid="uid://dwpf8re4uiwwh" path="res://scenes/Killzone/killzone.tscn" id="2_83m47"]
+[ext_resource type="PackedScene" uid="uid://dwpf8re4uiwwh" path="res://scenes/killzone/killzone.tscn" id="2_83m47"]
 [ext_resource type="Texture2D" uid="uid://d171u7ks0trji" path="res://assets/sprites/FalcaoTiro.png" id="3_wvgk1"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_lrsl1"]

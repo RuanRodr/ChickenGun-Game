@@ -1,7 +1,7 @@
 [gd_scene load_steps=9 format=3 uid="uid://r77fj8bfhv8u"]
 
 [ext_resource type="Script" path="res://scenes/Projectiles/bullet/bullet_worm.gd" id="1_ol7ki"]
-[ext_resource type="PackedScene" uid="uid://dwpf8re4uiwwh" path="res://scenes/Killzone/killzone.tscn" id="2_02y0k"]
+[ext_resource type="PackedScene" uid="uid://dwpf8re4uiwwh" path="res://scenes/killzone/killzone.tscn" id="2_02y0k"]
 [ext_resource type="Texture2D" uid="uid://bek4s2mu5gbae" path="res://assets/sprites/BALAMinhoca.png" id="3_ta2vh"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ek6o6"]

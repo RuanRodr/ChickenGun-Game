@@ -23,7 +23,7 @@
 [ext_resource type="Texture2D" uid="uid://c8xus7uftd0ql" path="res://assets/sprites/Teiu/Idle/pixil-frame-1.png" id="11_whyyq"]
 [ext_resource type="Texture2D" uid="uid://c6gaxkxbs218n" path="res://assets/sprites/Teiu/Idle/pixil-frame-2.png" id="12_7hspa"]
 [ext_resource type="Texture2D" uid="uid://jvhqj0cnefvk" path="res://assets/sprites/Teiu/Idle/pixil-frame-3.png" id="13_u3pc7"]
-[ext_resource type="PackedScene" uid="uid://dwpf8re4uiwwh" path="res://scenes/Killzone/killzone.tscn" id="14_7myu7"]
+[ext_resource type="PackedScene" uid="uid://dwpf8re4uiwwh" path="res://scenes/killzone/killzone.tscn" id="14_7myu7"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_hp06v"]
 atlas = ExtResource("2_cwhtq")

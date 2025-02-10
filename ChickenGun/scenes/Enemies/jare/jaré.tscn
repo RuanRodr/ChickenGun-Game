@@ -61,7 +61,7 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_02yop"]
-size = Vector2(41, 8)
+size = Vector2(40, 8)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ryvxf"]
 size = Vector2(20, 9)
@@ -76,16 +76,19 @@ sprite_frames = SubResource("SpriteFrames_tt441")
 animation = &"run"
 autoplay = "run"
 offset = Vector2(10, 0)
-flip_h = true
 
 [node name="Killzone" parent="." instance=ExtResource("3_12tfs")]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Killzone"]
-position = Vector2(-0.5, -5)
+position = Vector2(0, -5)
 shape = SubResource("RectangleShape2D_02yop")
 
 [node name="WallDetector" type="RayCast2D" parent="."]
-position = Vector2(14, -4)
+position = Vector2(18, -5)
+target_position = Vector2(10, 0)
+
+[node name="WallDetector2" type="RayCast2D" parent="."]
+position = Vector2(18, -5)
 target_position = Vector2(10, 0)
 
 [node name="GroundDetector" type="RayCast2D" parent="."]

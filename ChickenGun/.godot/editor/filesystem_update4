@@ -1,33 +1,16 @@
-res://scenes/Game/pause/pause.tscn
-res://assets/button theme/title_screen.tres
-res://assets/button theme/game_over.tres
-res://scenes/Game/pause/pause.gd
 res://scenes/Levels/final level/final_level.tscn
-res://scenes/Bosses/teiu/teiu/teiu.tscn
-res://scenes/Projectiles/stone/stone.tscn
-res://scenes/Game/player/player.tscn
-res://scenes/Enemies/falcao/falcao.tscn
-res://scenes/Enemies/jare/jaré.tscn
-res://scenes/Enemies/minhocao/minhocao.tscn
-res://scenes/Projectiles/bullet/bullet.tscn
-res://scenes/Projectiles/bullet/bullet_worm.tscn
+res://assets/button theme/game_over.tres
 res://scenes/Killzone/killzone.tscn
-res://scenes/Menu/options_menu_button/options_menu_button.tscn
-res://scenes/Menu/options_menu/options_menu.tscn
-res://scenes/Menu/main_menu/main_menu.tscn
-res://scenes/Menu/custom_button/custom_button.tscn
-res://scenes/Menu/resolution_mode_button/resolution_mode_button.tscn
-res://scenes/Menu/settings_tab_container/settings_tab_container.tscn
-res://scenes/Menu/window_mode_button/window_mode_button.tscn
-res://scenes/Menu/audio_slider_settings/audio_slider_settings.tscn
-res://scenes/Menu/credits/credits.tscn
-res://scenes/Menu/hotkey_rebind_button/hotkey_rebind_button.tscn
-res://scenes/Levels/level 2/level_2.tscn
 res://scenes/Levels/level 1/level_1.tscn
-res://scenes/Game/game/game.tscn
+res://scenes/Levels/level 2/level_2.tscn
 res://scenes/Levels/level 3/level_3.tscn
+res://scenes/Game/pause/pause.tscn
 res://scenes/Game/game over/game_over.tscn
 res://scenes/Game/you win/you_win.tscn
-res://scenes/Game/game/game.gd
-res://scenes/Game/you win/you_win.gd
-res://scenes/Bosses/teiu/teiu/teiu.gd
+res://scenes/Collectibles/coin/coin.tscn
+res://scenes/Enemies/jare/jaré.gd
+res://scenes/Killzone/killzone.gd
+res://scenes/Enemies/jare/jaré.tscn
+res://scenes/Menu/members/members.tscn
+res://assets/button theme/title_screen.tres
+res://scenes/Menu/credits/credits.tscn

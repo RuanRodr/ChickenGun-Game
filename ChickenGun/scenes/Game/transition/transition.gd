@@ -2,7 +2,7 @@ class_name Transition extends CanvasLayer
 
 const STARTING_THRESHOLD: float = 0.0
 const END_THRESHOLD: float = 1.0
-const DURATION: float = 2.0
+const DURATION: float = 1.0
 
 var scene_transition: Tween 
 

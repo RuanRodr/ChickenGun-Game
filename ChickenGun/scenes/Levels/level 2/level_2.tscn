@@ -1,8 +1,11 @@
-[gd_scene load_steps=7 format=3 uid="uid://dhjb8yarqfi8e"]
+[gd_scene load_steps=10 format=3 uid="uid://dhjb8yarqfi8e"]
 
 [ext_resource type="Script" path="res://scenes/Levels/level 2/level_2.gd" id="1_ud32u"]
 [ext_resource type="Texture2D" uid="uid://da52va2pnopad" path="res://assets/sprites/MundoBlocos.png" id="3_rg66q"]
+[ext_resource type="PackedScene" uid="uid://bi42m1ao6mbe4" path="res://scenes/Enemies/falcao/falcao.tscn" id="4_edoem"]
 [ext_resource type="PackedScene" uid="uid://dc3qt2sbyjo1w" path="res://scenes/Collectibles/goal/goal.tscn" id="4_p7dsx"]
+[ext_resource type="PackedScene" uid="uid://c8kw4vdik224r" path="res://scenes/Enemies/minhocao/minhocao.tscn" id="5_jo1nt"]
+[ext_resource type="PackedScene" uid="uid://qoqc7bh2rmpo" path="res://scenes/Enemies/jare/jaré.tscn" id="6_xnicq"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_q5wub"]
 texture = ExtResource("3_rg66q")
@@ -200,7 +203,7 @@ layer_1/tile_data = PackedInt32Array(458760, 65536, 0, 458777, 0, 1, 458778, 0, 
 [node name="inimigos" type="Node" parent="."]
 
 [node name="goal" parent="." instance=ExtResource("4_p7dsx")]
-position = Vector2(85, 63)
+position = Vector2(1034, 65)
 
 [node name="Player Spawn" type="Marker2D" parent="."]
 position = Vector2(-112, -33)
@@ -210,3 +213,15 @@ position = Vector2(-18, -8)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Lower Limit"]
 shape = SubResource("WorldBoundaryShape2D_6gtef")
+
+[node name="Falcão" parent="." instance=ExtResource("4_edoem")]
+position = Vector2(228, 78)
+
+[node name="Minhocao" parent="." instance=ExtResource("5_jo1nt")]
+position = Vector2(-49, 68)
+
+[node name="Jare" parent="." instance=ExtResource("6_xnicq")]
+position = Vector2(730, 64)
+
+[node name="Minhocao2" parent="." instance=ExtResource("5_jo1nt")]
+position = Vector2(958, 67)
