@@ -13,10 +13,6 @@ region = Rect2(0, 20, 50, 20)
 atlas = ExtResource("2_3o5dn")
 region = Rect2(50, 20, 50, 20)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_lyajg"]
-atlas = ExtResource("3_w5k1p")
-region = Rect2(0, 10, 50, 40)
-
 [sub_resource type="AtlasTexture" id="AtlasTexture_ayot4"]
 atlas = ExtResource("3_w5k1p")
 region = Rect2(50, 10, 50, 40)
@@ -28,6 +24,10 @@ region = Rect2(100, 10, 50, 40)
 [sub_resource type="AtlasTexture" id="AtlasTexture_t0won"]
 atlas = ExtResource("3_w5k1p")
 region = Rect2(150, 10, 50, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lyajg"]
+atlas = ExtResource("3_w5k1p")
+region = Rect2(0, 10, 50, 40)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_tt441"]
 animations = [{
@@ -44,9 +44,6 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_lyajg")
-}, {
-"duration": 1.0,
 "texture": SubResource("AtlasTexture_ayot4")
 }, {
 "duration": 1.0,
@@ -54,6 +51,9 @@ animations = [{
 }, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_t0won")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lyajg")
 }],
 "loop": true,
 "name": &"shooting",
@@ -73,7 +73,7 @@ script = ExtResource("1_jhko1")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(-9, -5)
 sprite_frames = SubResource("SpriteFrames_tt441")
-animation = &"run"
+animation = &"shooting"
 autoplay = "run"
 offset = Vector2(10, 0)
 

@@ -8,9 +8,5 @@ res://scenes/Game/pause/pause.tscn
 res://scenes/Game/game over/game_over.tscn
 res://scenes/Game/you win/you_win.tscn
 res://scenes/Collectibles/coin/coin.tscn
-res://scenes/Enemies/jare/jaré.gd
-res://scenes/Killzone/killzone.gd
 res://scenes/Enemies/jare/jaré.tscn
-res://scenes/Menu/members/members.tscn
-res://assets/button theme/title_screen.tres
-res://scenes/Menu/credits/credits.tscn
+res://scenes/Enemies/jare/jaré.gd
