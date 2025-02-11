@@ -5,6 +5,7 @@
 [ext_resource type="PackedScene" uid="uid://dw2xrvnsa84ga" path="res://scenes/Menu/window_mode_button/window_mode_button.tscn" id="1_igwa3"]
 [ext_resource type="PackedScene" uid="uid://cmdek81ch3bln" path="res://scenes/Menu/resolution_mode_button/resolution_mode_button.tscn" id="2_74y4g"]
 
+
 [node name="Settings Tab Container" type="Control"]
 layout_mode = 3
 anchors_preset = 15

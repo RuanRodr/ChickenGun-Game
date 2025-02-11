@@ -8,6 +8,7 @@
 [ext_resource type="AudioStream" uid="uid://iw7sopyr77do" path="res://assets/music/galinhabotaovograndemimficarfeliz.mp3" id="6_olhjd"]
 [ext_resource type="PackedScene" uid="uid://c77g0kboeh103" path="res://scenes/Menu/credits/credits.tscn" id="6_q41mi"]
 
+
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_j4dkr"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_upmwb"]

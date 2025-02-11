@@ -6,6 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://biqieu6rqkxvc" path="res://scenes/Menu/members/members.tscn" id="3_xb4m0"]
 [ext_resource type="Theme" uid="uid://co7pi8lf8wcqb" path="res://assets/button theme/title_screen.tres" id="4_i0fyd"]
 
+
 [node name="Credits" type="Control"]
 layout_mode = 3
 anchors_preset = 15

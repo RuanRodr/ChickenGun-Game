@@ -3,5 +3,6 @@
 [ext_resource type="PackedScene" uid="uid://4pp6p8pm5pwh" path="res://scenes/Menu/options_display_button/options_display_button.tscn" id="1_yxim6"]
 [ext_resource type="Script" path="res://scenes/Menu/window_mode_button/window_mode_button.gd" id="2_nxu15"]
 
+
 [node name="Window_Mode_Button" instance=ExtResource("1_yxim6")]
 script = ExtResource("2_nxu15")

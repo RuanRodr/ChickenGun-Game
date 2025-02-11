@@ -1,0 +1,43 @@
+res://assets/button theme/game_over.tres::09f8213f373d2ebccca6b8a26d17c34a::1739239850::res://.godot/exported/133200997/export-de8795808bbaf5b67a3076153ca914e2-game_over.res
+res://assets/button theme/hud.tres::a245ab2ba84d306260b05ce142fa2e55::1739239222::res://.godot/exported/133200997/export-bd7a3cdf0d9f838561e88665daf16459-hud.res
+res://assets/button theme/title_screen.tres::b53480112d46317f2f9609ac5a8f3781::1739239222::res://.godot/exported/133200997/export-49ccd08fcb4ff636ba1797aa9ab6ef2a-title_screen.res
+res://scenes/Bosses/teiu/teiu/teiu.tscn::212988f8a7b9eabef44eaf18408cfb06::1739239850::res://.godot/exported/133200997/export-251529b5bfce5c75cee6e40433dbbe46-teiu.scn
+res://scenes/Collectibles/coin/coin.tscn::249fd1eda1985a95e019b04a14a01c84::1739242136::res://.godot/exported/133200997/export-73ba55596fb78248cd96cdcbe461ea93-coin.scn
+res://scenes/Collectibles/goal/goal.tscn::9ad15e265e1e9d18fbf3c5901a59510a::1739239222::res://.godot/exported/133200997/export-609c5ea125dd518cf676cdc1cd0c899d-goal.scn
+res://scenes/Effects/explosion/explosion.tscn::276c750c42249f14c478c84b81a364bf::1739239222::res://.godot/exported/133200997/export-13b0f7ef9239f09278bd900eb7d2276f-explosion.scn
+res://scenes/Enemies/falcao/falcao.tscn::aa82775ad7b9b8c65a686434cf484156::1739239850::res://.godot/exported/133200997/export-bc4c822eaf8129c10ae8fa653f86b488-falcao.scn
+res://scenes/Enemies/jare/jaré.tscn::b7a4e2ec79280d91b93476f18b6ca164::1739242136::res://.godot/exported/133200997/export-0c40c13a103a614e83f4a0db40a319a8-jaré.scn
+res://scenes/Enemies/minhocao/minhocao.tscn::ed4a9900aa2fe9821db54a8e63f12188::1739239850::res://.godot/exported/133200997/export-2dc33f9830d946260536495c76a2922d-minhocao.scn
+res://scenes/Game/game/game.tscn::5ce57dc8789f3490725577882b8736f2::1739239222::res://.godot/exported/133200997/export-5a5c26e788817ddea9898be27b8b885c-game.scn
+res://scenes/Game/game over/game_over.tscn::56b87df49df1e93b072c645489253b8b::1739242136::res://.godot/exported/133200997/export-a4d0ec14cac05c81481484b966aaa8f8-game_over.scn
+res://scenes/Game/hud/hud.tscn::c8da750eca15974c348e5db3fbabfc3b::1739242838::res://.godot/exported/133200997/export-790fb5e0dfebc0b66ec2e3aee9c3932d-hud.scn
+res://scenes/Game/music/music.tscn::ed56ca33ba0b475e9a272bb812143e01::1739242137::res://.godot/exported/133200997/export-be9413b62ca4e397f890828125c3b100-music.scn
+res://scenes/Game/pause/pause.tscn::5ebb6fa3344e9623d2812df284cfb3d8::1739242136::res://.godot/exported/133200997/export-5f3e068def057635b504229d684fc08a-pause.scn
+res://scenes/Game/pause/pause_menu.tres::a4befd74a2494e73156e88cd03e6adaa::1739239222::res://.godot/exported/133200997/export-2d844694713f8d6aad287f3dfdb2fd9d-pause_menu.res
+res://scenes/Game/player/player.tscn::015b3f644b804241ea2fb7055f735e6f::1739242136::res://.godot/exported/133200997/export-998d5a019b1e6391e2c0b4355042b850-player.scn
+res://scenes/Game/transition/transition.tscn::90d18e19ab57d90eb0dabae368331f56::1739242137::res://.godot/exported/133200997/export-01f9badea1f47071cc70e1cb06f83d44-transition.scn
+res://scenes/Game/you win/you_win.tscn::2b1696d05dcbc0cd0be3b7d3e548b89c::1739242136::res://.godot/exported/133200997/export-6261287894ebd9df29ea45d51dcc7481-you_win.scn
+res://scenes/Levels/final level/final_level.tscn::84a618fa45741f31abb0c6ed8621b430::1739242135::res://.godot/exported/133200997/export-b2861f0fdfda94b5e414da7f39f54398-final_level.scn
+res://scenes/Levels/level/level.tscn::73309dfa124bbaf990735cbd5db07a1c::1739239222::res://.godot/exported/133200997/export-9d85e1f254a04bb3cb626a15fb2c9c30-level.scn
+res://scenes/Levels/level 1/level_1.tscn::0fd12df645790c3b68cc7fcce37b3c70::1739242136::res://.godot/exported/133200997/export-3b76297c151ca8cd702b9185b08ad03c-level_1.scn
+res://scenes/Levels/level 2/level_2.tscn::095aa6341d5095e8124e875d48150ee3::1739242136::res://.godot/exported/133200997/export-7822f242e71f3e1f2bb2fd176323348e-level_2.scn
+res://scenes/Levels/level 3/level_3.tscn::ab4b355d0bd7a081417989e19a175182::1739242136::res://.godot/exported/133200997/export-c5309c24e9a3315b164e6d79c976ef05-level_3.scn
+res://scenes/Platforms/regular platform/regular_platform.tscn::bcd169eafd203988fd5eebe90e2836ce::1739239222::res://.godot/exported/133200997/export-6d627e312ebf84cf0e7978f5b96b3227-regular_platform.scn
+res://scenes/Projectiles/bullet/bullet.tscn::2310e3cdeae76befed254952fce62017::1739239222::res://.godot/exported/133200997/export-280974f2ed2d00b730a744a8d61a6b9b-bullet.scn
+res://scenes/Projectiles/bullet/bullet_worm.tscn::e06e1ae705a81fc37ed66d82125b4bb6::1739239850::res://.godot/exported/133200997/export-ce8b2df2fea6f4897dce686d07ecb8fc-bullet_worm.scn
+res://scenes/Projectiles/stone/stone.tscn::9e7b173cc4aa880172890393573854d2::1739239850::res://.godot/exported/133200997/export-3cc13190486202fe9d304b48fc9eaa76-stone.scn
+res://default_bus_layout.tres::6434bb7bcdd4dd149566ba807608ce15::1739239222::res://.godot/exported/133200997/export-19246414aa9fb561ced4b8dce477acec-default_bus_layout.res
+res://scenes/Killzone/killzone.tscn::4b35c5b349693211b019c7d0590f87f4::1739242136::res://.godot/exported/133200997/export-970a397413bfe83fdbcbae42519d7b4d-killzone.scn
+res://scenes/Menu/audio_slider_settings/audio_slider_settings.tscn::2dc5fd4d21a41b605f982c710b8d0b09::1739239222::res://.godot/exported/133200997/export-fb78f729a8c414a51b9cf69ea3285c81-audio_slider_settings.scn
+res://scenes/Menu/credits/credits.tscn::559128a0759c044f62d8d3b39545094e::1739239843::res://.godot/exported/133200997/export-08ac478814b669080130987d79d6815e-credits.scn
+res://scenes/Menu/custom_button/custom_button.tscn::45ae7173a12608ab8162d5edfc70bb82::1739239222::res://.godot/exported/133200997/export-0c8c27eb3524654cb250450e9583be51-custom_button.scn
+res://scenes/Menu/hotkey_rebind_button/hotkey_rebind_button.tscn::1a5e91430fefc18357d057d2f2f49f26::1739239222::res://.godot/exported/133200997/export-f697e60e3d878b059e16df5677ae8f2a-hotkey_rebind_button.scn
+res://scenes/Menu/main_menu/main_menu.tscn::80a82e1d3e7c709a75c9d953b8099b8f::1739239843::res://.godot/exported/133200997/export-702e74146da62b392b13c78b4386843a-main_menu.scn
+res://scenes/Menu/main_menu_button/main_menu_button.tscn::8c9593cd96b8aeb5d384c09494efd5c9::1739239843::res://.godot/exported/133200997/export-0205ee395d5a8b7df0c57623f97ce5a3-main_menu_button.scn
+res://scenes/Menu/members/members.tscn::f94f2738c8ea0764d22c1cf1be74c8ec::1739239222::res://.godot/exported/133200997/export-8de8df6eccaf14ff71f96391c7bfa631-members.scn
+res://scenes/Menu/options_display_button/options_display_button.tscn::7cd9ddef2a8f439d0e5ad25050f01fb0::1739239222::res://.godot/exported/133200997/export-6c08d0ec03168497a4adede6189027b3-options_display_button.scn
+res://scenes/Menu/options_menu/options_menu.tscn::a6d94910e6f3cdc121cd723dc3a33e51::1739239843::res://.godot/exported/133200997/export-ada2da7cbb2ac8aa703a5821a1eb2a3c-options_menu.scn
+res://scenes/Menu/options_menu_button/options_menu_button.tscn::241c9d2d760d5d627af128d9d405df02::1739239843::res://.godot/exported/133200997/export-3cd4a843e6b139a8a30d567099ff9442-options_menu_button.scn
+res://scenes/Menu/resolution_mode_button/resolution_mode_button.tscn::a69248f5454337adaa163af640b59785::1739239843::res://.godot/exported/133200997/export-846dd6aeda07be902da95a4f8cc8a0bc-resolution_mode_button.scn
+res://scenes/Menu/settings_tab_container/settings_tab_container.tscn::5abd0e46b02e6a1ac2a69dba4a950188::1739239843::res://.godot/exported/133200997/export-0558065ac88df1fab08ae19570e7af2a-settings_tab_container.scn
+res://scenes/Menu/window_mode_button/window_mode_button.tscn::4f980867d539beb3b8ea9308d65f2cdf::1739239843::res://.godot/exported/133200997/export-29f0f8bf1fe55765561dd5f93069f7d6-window_mode_button.scn

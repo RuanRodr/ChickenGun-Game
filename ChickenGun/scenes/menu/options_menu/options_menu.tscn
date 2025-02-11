@@ -6,6 +6,7 @@
 [ext_resource type="FontFile" uid="uid://c53kogtyjwsss" path="res://assets/fonts/PixelOperator8-Bold.ttf" id="2_i2me1"]
 [ext_resource type="PackedScene" uid="uid://dny40ih02jt6u" path="res://scenes/Menu/settings_tab_container/settings_tab_container.tscn" id="3_jx3t4"]
 
+
 [node name="Options Menu" type="Control"]
 layout_mode = 3
 anchors_preset = 15

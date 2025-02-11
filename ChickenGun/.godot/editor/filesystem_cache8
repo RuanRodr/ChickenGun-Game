@@ -1,219 +1,219 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1739226929
-default_bus_layout.tres::AudioBusLayout::2952593895881318664::1739153860::0::1::::<><>::
-export_presets.cfg::TextFile::-1::1739153860::0::1::::<><>::
-icon.svg::CompressedTexture2D::3050862706883213075::1739153860::1739153891::1::::<><>::
-::res://assets/::1739153860
-::res://assets/button theme/::1739226897
-game_over.tres::Theme::2485813061310795882::1739226897::0::1::::<><>::uid://dbjl1e6kdxpl6::::res://assets/fonts/PixelOperator8.ttf
-hud.tres::Theme::8126289231589593191::1739153860::0::1::::<><>::uid://dbjl1e6kdxpl6::::res://assets/fonts/PixelOperator8.ttf
-title_screen.tres::Theme::5822472058226851529::1739224663::0::1::::<><>::uid://dbjl1e6kdxpl6::::res://assets/fonts/PixelOperator8.ttf
-::res://assets/fonts/::1739153890
-PixelOperator8-Bold.ttf::FontFile::6936941770277928638::1739153860::1739153890::1::::<><>::
-PixelOperator8.ttf::FontFile::7248744870507454393::1739153860::1739153890::1::::<><>::
-::res://assets/images/::1739153891
-background_novo_2.png::CompressedTexture2D::6837493191129859936::1739153860::1739153891::1::::<><>::
-::res://assets/music/::1739153890
-galinhabotaovograndemimficarfeliz.mp3::AudioStreamMP3::608902907365820100::1739153860::1739153890::1::::<><>::
-time_for_adventure.mp3::AudioStreamMP3::910032320464020072::1739153860::1739153890::1::::<><>::
-::res://assets/sounds/::1739153891
-coin.wav::AudioStreamWAV::540128631005207270::1739153860::1739153891::1::::<><>::
-explosion.wav::AudioStreamWAV::3923250085558049769::1739153860::1739153891::1::::<><>::
-hurt.wav::AudioStreamWAV::9136989958465260607::1739153860::1739153891::1::::<><>::
-jump.wav::AudioStreamWAV::4555448410108296144::1739153860::1739153891::1::::<><>::
-power_up.wav::AudioStreamWAV::5280086168748845488::1739153860::1739153891::1::::<><>::
-tap.wav::AudioStreamWAV::8577790250360397841::1739153860::1739153891::1::::<><>::
-::res://assets/sprites/::1739229078
-BALAMinhoca.png::CompressedTexture2D::2689614210483486360::1739153860::1739153890::1::::<><>::
-CanjicaAndar.png::CompressedTexture2D::3876357805226893029::1739153860::1739153890::1::::<><>::
-CanjicaLife.png::CompressedTexture2D::8687615720853511023::1739153860::1739153890::1::::<><>::
-CanjicaStop.png::CompressedTexture2D::7146000192722570333::1739153860::1739153890::1::::<><>::
-coin.png::CompressedTexture2D::3447739040894185057::1739153860::1739153890::1::::<><>::
-CoinMilho.png::CompressedTexture2D::1361151569164431889::1739196180::1739196214::1::::<><>::
-corn.png::CompressedTexture2D::599784531538221302::1739153860::1739153890::1::::<><>::
-explosao.png::CompressedTexture2D::1249932696017560178::1739153860::1739153890::1::::<><>::
-FalcaoAndar.png::CompressedTexture2D::5369074361076081979::1739153860::1739153890::1::::<><>::
-FalcaoTiro.png::CompressedTexture2D::9051848128535345510::1739153860::1739153890::1::::<><>::
-fruit.png::CompressedTexture2D::470233896381552850::1739153860::1739153890::1::::<><>::
-JareStop.png::CompressedTexture2D::6642241707792353323::1739153860::1739153890::1::::<><>::
-JareTiro.png::CompressedTexture2D::8274158380314213833::1739229078::1739229087::1::::<><>::
-milho.png::CompressedTexture2D::1163060313563867202::1739153860::1739153890::1::::<><>::
-MinhocaoAtaque.png::CompressedTexture2D::6279739305449718607::1739153860::1739153890::1::::<><>::
-Minhocao_Andar_Invertido (1).png::CompressedTexture2D::3224967129910448240::1739153860::1739153890::1::::<><>::
-MundoBlocos.png::CompressedTexture2D::7222870286586984351::1739153860::1739153890::1::::<><>::
-pe de milho.png::CompressedTexture2D::8122051154762643351::1739153860::1739153890::1::::<><>::
-platforms.png::CompressedTexture2D::6429460309075172824::1739153860::1739153891::1::::<><>::
-slime_green.png::CompressedTexture2D::3222140907498469096::1739153860::1739153891::1::::<><>::
-::res://assets/sprites/Teiu/::1739153860
-::res://assets/sprites/Teiu/Ataque 1/::1739153891
-pixil-frame-0.png::CompressedTexture2D::2338457208740320852::1739153860::1739153891::1::::<><>::
-pixil-frame-1.png::CompressedTexture2D::2087629817586756435::1739153860::1739153891::1::::<><>::
-pixil-frame-2.png::CompressedTexture2D::5408659931109380011::1739153860::1739153891::1::::<><>::
-pixil-frame-3.png::CompressedTexture2D::6496535083209099963::1739153860::1739153891::1::::<><>::
-pixil-frame-4.png::CompressedTexture2D::2281112229522270691::1739153860::1739153891::1::::<><>::
-pixil-frame-5.png::CompressedTexture2D::355562606925113990::1739153860::1739153891::1::::<><>::
-pixil-frame-6.png::CompressedTexture2D::6862507362175469518::1739153860::1739153891::1::::<><>::
-pixil-frame-7.png::CompressedTexture2D::7531280842529803046::1739153860::1739153891::1::::<><>::
-::res://assets/sprites/Teiu/Idle/::1739153891
-pixil-frame-0.png::CompressedTexture2D::5885526146850110623::1739153860::1739153891::1::::<><>::
-pixil-frame-1.png::CompressedTexture2D::7137802091826270839::1739153860::1739153891::1::::<><>::
-pixil-frame-2.png::CompressedTexture2D::6961123420783962159::1739153860::1739153891::1::::<><>::
-pixil-frame-3.png::CompressedTexture2D::675505628668058968::1739153860::1739153891::1::::<><>::
-::res://assets/sprites/Teiu/RabadaTeiu-Ataque2/::1739153891
-pixil-frame-0.png::CompressedTexture2D::7780560435358428352::1739153860::1739153891::1::::<><>::
-pixil-frame-1.png::CompressedTexture2D::7653831196016770461::1739153860::1739153891::1::::<><>::
-pixil-frame-2.png::CompressedTexture2D::8282112073790667124::1739153860::1739153891::1::::<><>::
-pixil-frame-3.png::CompressedTexture2D::4401309932763629638::1739153860::1739153891::1::::<><>::
-pixil-frame-4.png::CompressedTexture2D::2775673465737919538::1739153860::1739153891::1::::<><>::
-pixil-frame-5.png::CompressedTexture2D::7687536205054132864::1739153860::1739153891::1::::<><>::
-pixil-frame-6.png::CompressedTexture2D::3436114630011015238::1739153860::1739153891::1::::<><>::
-::res://assets/sprites/Teiu/Rocha Caindo Teiu - Ataque2/::1739153891
-pixil-frame-0.png::CompressedTexture2D::3885883631687995832::1739153860::1739153891::1::::<><>::
-pixil-frame-1.png::CompressedTexture2D::4067006463673799419::1739153860::1739153890::1::::<><>::
-pixil-frame-2.png::CompressedTexture2D::8948663589544786505::1739153860::1739153890::1::::<><>::
-::res://assets/sprites/Teiu/TeiuAndar/::1739153890
-pixil-frame-0.png::CompressedTexture2D::5551346520477423897::1739153860::1739153890::1::::<><>::
-pixil-frame-1.png::CompressedTexture2D::8582519298630252960::1739153860::1739153890::1::::<><>::
-pixil-frame-2.png::CompressedTexture2D::5268997842482007186::1739153860::1739153890::1::::<><>::
-pixil-frame-3.png::CompressedTexture2D::208594341363480035::1739153860::1739153890::1::::<><>::
-::res://assets/transitions/::1739153860
-transition_shader.gdshader::Shader::-1::1739153860::0::1::::<><>::
-::res://scenes/::1739226929
-::res://scenes/Bosses/::1739153860
-::res://scenes/Bosses/teiu/::1739153860
-::res://scenes/Bosses/teiu/dead state/::1739153860
-dead_state.gd::GDScript::-1::1739153860::0::1::::Dead_State<>Teiu_State<>::
-::res://scenes/Bosses/teiu/follow state/::1739153860
-follow_state.gd::GDScript::-1::1739153860::0::1::::Follow_State<>Teiu_State<>::
-::res://scenes/Bosses/teiu/idle state/::1739153860
-idle_state.gd::GDScript::-1::1739153860::0::1::::Idle_State<>Teiu_State<>::
-::res://scenes/Bosses/teiu/jump state/::1739153860
-jump_state.gd::GDScript::-1::1739153860::0::1::::Jump_State<>Teiu_State<>::
-::res://scenes/Bosses/teiu/melee attack state/::1739153860
-melee_attack_state.gd::GDScript::-1::1739153860::0::1::::Melee_Attack<>Teiu_State<>::
-::res://scenes/Bosses/teiu/minions attack state/::1739153860
-minions_attack_state.gd::GDScript::-1::1739153860::0::1::::Minions_Attack_State<>Teiu_State<>::
-::res://scenes/Bosses/teiu/stone attack state/::1739153860
-stone_attack_state.gd::GDScript::-1::1739153860::0::1::::Stone_Attack_State<>Teiu_State<>::
-::res://scenes/Bosses/teiu/teiu/::1739226929
-teiu.gd::GDScript::-1::1739153860::0::1::::Teiu<>CharacterBody2D<>::
-teiu.tscn::PackedScene::3142537702712151744::1739226929::0::1::::<><>::res://scenes/Bosses/teiu/teiu/teiu.gd<>uid://8k1bwfgvkx37::::res://assets/sprites/Teiu/Ataque 1/pixil-frame-0.png<>uid://cldd4pinhli14::::res://assets/sprites/Teiu/TeiuAndar/pixil-frame-0.png<>uid://dujo3r2f6kyqa::::res://assets/sprites/Teiu/TeiuAndar/pixil-frame-1.png<>uid://40i7tsy8ocnr::::res://assets/sprites/Teiu/Ataque 1/pixil-frame-1.png<>uid://chclvidptwu3k::::res://assets/sprites/Teiu/TeiuAndar/pixil-frame-2.png<>uid://cjb83ryf2rj6r::::res://assets/sprites/Teiu/Ataque 1/pixil-frame-2.png<>uid://cys78pd7xigfj::::res://assets/sprites/Teiu/Ataque 1/pixil-frame-3.png<>uid://c8brvgkatk0r::::res://assets/sprites/Teiu/TeiuAndar/pixil-frame-3.png<>uid://7q8t5otc2qch::::res://assets/sprites/Teiu/Ataque 1/pixil-frame-4.png<>uid://di37xt25mjyvo::::res://assets/sprites/Teiu/RabadaTeiu-Ataque2/pixil-frame-0.png<>uid://dhbtqmxhrrcgr::::res://assets/sprites/Teiu/RabadaTeiu-Ataque2/pixil-frame-1.png<>uid://fcicgg3l2jn7::::res://assets/sprites/Teiu/Ataque 1/pixil-frame-5.png<>uid://c41iq1vv0pwh7::::res://assets/sprites/Teiu/Ataque 1/pixil-frame-6.png<>uid://dp86f8itoqrk3::::res://assets/sprites/Teiu/RabadaTeiu-Ataque2/pixil-frame-2.png<>uid://b3ya6w41cc2uc::::res://assets/sprites/Teiu/RabadaTeiu-Ataque2/pixil-frame-3.png<>uid://dfkhdh8qo0ex7::::res://assets/sprites/Teiu/Ataque 1/pixil-frame-7.png<>uid://cp380xwdi2vl4::::res://assets/sprites/Teiu/Idle/pixil-frame-0.png<>uid://bfss63shq07ak::::res://assets/sprites/Teiu/RabadaTeiu-Ataque2/pixil-frame-4.png<>uid://bo7qknwoffk0u::::res://assets/sprites/Teiu/RabadaTeiu-Ataque2/pixil-frame-6.png<>uid://c8xus7uftd0ql::::res://assets/sprites/Teiu/Idle/pixil-frame-1.png<>uid://c6gaxkxbs218n::::res://assets/sprites/Teiu/Idle/pixil-frame-2.png<>uid://jvhqj0cnefvk::::res://assets/sprites/Teiu/Idle/pixil-frame-3.png<>uid://dwpf8re4uiwwh::::res://scenes/Killzone/killzone.tscn
-::res://scenes/Bosses/teiu/teiu state/::1739153860
-teiu_state.gd::GDScript::-1::1739153860::0::1::::Teiu_State<>Node<>::
-::res://scenes/Collectibles/::1739153860
-::res://scenes/Collectibles/coin/::1739228787
-coin.gd::GDScript::-1::1739153860::0::1::::Coin<>Area2D<>::
-coin.tscn::PackedScene::4366343840395457752::1739228787::0::1::::<><>::res://scenes/Collectibles/coin/coin.gd<>uid://tnl75ny5d2sj::::res://assets/sprites/CoinMilho.png<>uid://hxv3svfwkg67::::res://assets/sounds/coin.wav
-::res://scenes/Collectibles/goal/::1739153860
-goal.gd::GDScript::-1::1739153860::0::1::::Goal<>Area2D<>::
-goal.tscn::PackedScene::7358449163452309802::1739153860::0::1::::<><>::uid://dnym84h1fqhud::::res://assets/sprites/pe de milho.png<>res://scenes/Collectibles/goal/goal.gd
-::res://scenes/Effects/::1739153860
-::res://scenes/Effects/explosion/::1739153860
-explosion.gd::GDScript::-1::1739153860::0::1::::Explosion<>AnimatedSprite2D<>::
-explosion.tscn::PackedScene::363535320110459375::1739153860::0::1::::<><>::uid://r2qhdqb3au3k::::res://assets/sprites/explosao.png<>res://scenes/Effects/explosion/explosion.gd
-::res://scenes/Enemies/::1739153860
-::res://scenes/Enemies/enemy/::1739153860
-enemy.gd::GDScript::-1::1739153860::0::1::::Enemy<>CharacterBody2D<>::
-::res://scenes/Enemies/falcao/::1739226929
-falcao.gd::GDScript::-1::1739153860::0::1::::<>Node2D<>::
-falcao.tscn::PackedScene::3009460542281745977::1739226929::0::1::::<><>::res://scenes/Enemies/falcao/falcao.gd<>uid://ciq24ucc84fsl::::res://assets/sprites/FalcaoAndar.png<>uid://dwpf8re4uiwwh::::res://scenes/Killzone/killzone.tscn<>uid://d171u7ks0trji::::res://assets/sprites/FalcaoTiro.png
-::res://scenes/Enemies/jare/::1739228788
-jaré.gd::GDScript::-1::1739228786::0::1::::<>Node2D<>::
-jaré.tscn::PackedScene::1152899512884248852::1739228788::0::1::::<><>::res://scenes/Enemies/jare/jaré.gd<>uid://c1vs0rtamjh3p::::res://assets/sprites/JareStop.png<>uid://dwpf8re4uiwwh::::res://scenes/Killzone/killzone.tscn<>uid://dp5cgdxeirorh::::res://assets/sprites/JareTiro.png
-::res://scenes/Enemies/minhocao/::1739226929
-minhocao.gd::GDScript::-1::1739153860::0::1::::<>Node2D<>::
-minhocao.tscn::PackedScene::7111105654848679183::1739226929::0::1::::<><>::res://scenes/Enemies/minhocao/minhocao.gd<>uid://cvp7nhsrqx2al::::res://assets/sprites/MinhocaoAtaque.png<>uid://bl7g0cq8bo1ku::::res://assets/sprites/Minhocao_Andar_Invertido (1).png<>uid://dwpf8re4uiwwh::::res://scenes/Killzone/killzone.tscn
-::res://scenes/Game/::1739153860
-::res://scenes/Game/game/::1739153961
-game.gd::GDScript::-1::1739153959::0::1::::Game<>Node<>::
-game.tscn::PackedScene::2652297229941648234::1739153961::0::1::::<><>::res://scenes/Game/game/game.gd<>uid://yhpft6re1pow::::res://scenes/Game/hud/hud.tscn<>uid://d0cfa7xcnoiva::::res://scenes/Game/player/player.tscn<>uid://b7ttd6r2ej4kq::::res://scenes/Game/pause/pause.tscn<>uid://r62w6lovct0f::::res://scenes/Game/music/music.tscn
-::res://scenes/Game/game over/::1739228787
-game_over.gd::GDScript::-1::1739153860::0::1::::Game_Over<>Control<>::
-game_over.tscn::PackedScene::1110550344931741662::1739228787::0::1::::<><>::res://scenes/Game/game over/game_over.gd<>uid://dbjl1e6kdxpl6::::res://assets/fonts/PixelOperator8.ttf<>uid://bboe8iq4xv723::::res://assets/button theme/game_over.tres
-::res://scenes/Game/hud/::1739153860
-hud.gd::GDScript::-1::1739153860::0::1::::HUD<>CanvasLayer<>::
-hud.tscn::PackedScene::1699903622063594014::1739153860::0::1::::<><>::res://scenes/Game/hud/hud.gd<>uid://issmmlehcfmk::::res://assets/sprites/corn.png<>uid://dn1o2cu4l1mxj::::res://assets/button theme/hud.tres<>uid://dbjl1e6kdxpl6::::res://assets/fonts/PixelOperator8.ttf<>uid://dv1l05py4dx8j::::res://assets/sprites/CanjicaLife.png
-::res://scenes/Game/music/::1739153860
-music.gd::GDScript::-1::1739153860::0::1::::Music<>AudioStreamPlayer2D<>::
-music.tscn::PackedScene::1258886344373969283::1739153860::0::1::::<><>::uid://iw7sopyr77do::::res://assets/music/galinhabotaovograndemimficarfeliz.mp3<>res://scenes/Game/music/music.gd
-::res://scenes/Game/pause/::1739228787
-pause.gd::GDScript::-1::1739153860::0::1::::Pause<>Control<>::
-pause.tscn::PackedScene::4672847493399569536::1739228787::0::1::::<><>::res://scenes/Game/pause/pause.gd<>uid://dbjl1e6kdxpl6::::res://assets/fonts/PixelOperator8.ttf
-pause_menu.tres::Theme::3138028939386349899::1739153860::0::1::::<><>::uid://dbjl1e6kdxpl6::::res://assets/fonts/PixelOperator8.ttf
-::res://scenes/Game/player/::1739153960
-player.gd::GDScript::-1::1739153860::0::1::::Player<>CharacterBody2D<>::
-player.tscn::PackedScene::8918417198888574250::1739153960::0::1::::<><>::res://scenes/Game/player/player.gd<>uid://c82ttxqe4m8qj::::res://assets/sprites/CanjicaStop.png<>uid://bvh0bt84c3yiv::::res://assets/sprites/CanjicaAndar.png
-::res://scenes/Game/transition/::1739197913
-transition.gd::GDScript::-1::1739197913::0::1::::Transition<>CanvasLayer<>::
-transition.tscn::PackedScene::8322583565649596598::1739153860::0::1::::<><>::res://assets/transitions/transition_shader.gdshader<>res://scenes/Game/transition/transition.gd
-::res://scenes/Game/you win/::1739228787
-you_win.gd::GDScript::-1::1739153860::0::1::::You_Win<>CanvasLayer<>::
-you_win.tscn::PackedScene::37655307608249676::1739228787::0::1::::<><>::res://scenes/Game/you win/you_win.gd<>uid://dbjl1e6kdxpl6::::res://assets/fonts/PixelOperator8.ttf<>uid://bboe8iq4xv723::::res://assets/button theme/game_over.tres
-::res://scenes/Killzone/::1739228787
-killzone.gd::GDScript::-1::1739224299::0::1::::Killzone<>Area2D<>::
-killzone.tscn::PackedScene::8734745694010470891::1739228787::0::1::::<><>::res://scenes/Killzone/killzone.gd
-::res://scenes/Levels/::1739153860
-::res://scenes/Levels/final level/::1739228786
-final_level.gd::GDScript::-1::1739153860::0::1::::Final_Level<>Level<>::
-final_level.tscn::PackedScene::7911492617596011648::1739228786::0::1::::<><>::res://scenes/Levels/final level/final_level.gd<>uid://bk1jewgdc4fu3::::res://scenes/Bosses/teiu/teiu/teiu.tscn<>uid://da52va2pnopad::::res://assets/sprites/MundoBlocos.png<>uid://c53kogtyjwsss::::res://assets/fonts/PixelOperator8-Bold.ttf
-::res://scenes/Levels/level/::1739153860
-level.gd::GDScript::-1::1739153860::0::1::::Level<>Node2D<>::
-level.tscn::PackedScene::897228469024782890::1739153860::0::1::::<><>::res://scenes/Levels/level/level.gd
-::res://scenes/Levels/level 1/::1739228787
-level_1.gd::GDScript::-1::1739153860::0::1::::Level_1<>Level<>::
-level_1.tscn::PackedScene::4065388797420634131::1739228787::0::1::::<><>::res://scenes/Levels/level 1/level_1.gd<>uid://hbd42ccyb4sc::::res://scenes/Platforms/regular platform/regular_platform.tscn<>uid://da52va2pnopad::::res://assets/sprites/MundoBlocos.png<>uid://b3hdbsfoe2ab5::::res://scenes/Collectibles/coin/coin.tscn<>uid://qoqc7bh2rmpo::::res://scenes/Enemies/jare/jaré.tscn<>uid://c8kw4vdik224r::::res://scenes/Enemies/minhocao/minhocao.tscn<>uid://bi42m1ao6mbe4::::res://scenes/Enemies/falcao/falcao.tscn<>uid://dc3qt2sbyjo1w::::res://scenes/Collectibles/goal/goal.tscn
-::res://scenes/Levels/level 2/::1739228787
-level_2.gd::GDScript::-1::1739153860::0::1::::Level_2<>Level<>::
-level_2.tscn::PackedScene::7669284265878089806::1739228787::0::1::::<><>::res://scenes/Levels/level 2/level_2.gd<>uid://da52va2pnopad::::res://assets/sprites/MundoBlocos.png<>uid://bi42m1ao6mbe4::::res://scenes/Enemies/falcao/falcao.tscn<>uid://dc3qt2sbyjo1w::::res://scenes/Collectibles/goal/goal.tscn<>uid://c8kw4vdik224r::::res://scenes/Enemies/minhocao/minhocao.tscn<>uid://qoqc7bh2rmpo::::res://scenes/Enemies/jare/jaré.tscn
-::res://scenes/Levels/level 3/::1739228787
-level_3.gd::GDScript::-1::1739153860::0::1::::Level_3<>Level<>::
-level_3.tscn::PackedScene::1828760654542931640::1739228787::0::1::::<><>::res://scenes/Levels/level 3/level_3.gd<>uid://da52va2pnopad::::res://assets/sprites/MundoBlocos.png<>uid://dc3qt2sbyjo1w::::res://scenes/Collectibles/goal/goal.tscn<>uid://c8kw4vdik224r::::res://scenes/Enemies/minhocao/minhocao.tscn<>uid://bi42m1ao6mbe4::::res://scenes/Enemies/falcao/falcao.tscn<>uid://qoqc7bh2rmpo::::res://scenes/Enemies/jare/jaré.tscn<>uid://hbd42ccyb4sc::::res://scenes/Platforms/regular platform/regular_platform.tscn
-::res://scenes/Menu/::1739153860
-::res://scenes/Menu/audio_slider_settings/::1739153961
-audio_slider_settings.gd::GDScript::-1::1739153860::0::1::::<>Control<>::
-audio_slider_settings.tscn::PackedScene::4372876636962343791::1739153961::0::1::::<><>::res://scenes/Menu/audio_slider_settings/audio_slider_settings.gd
-::res://scenes/Menu/credits/::1739224664
-credits.gd::GDScript::-1::1739153860::0::1::::Credits<>Control<>::
-credits.tscn::PackedScene::7085353926157425614::1739224664::0::1::::<><>::res://scenes/Menu/credits/credits.gd<>uid://c53kogtyjwsss::::res://assets/fonts/PixelOperator8-Bold.ttf<>uid://dbjl1e6kdxpl6::::res://assets/fonts/PixelOperator8.ttf<>uid://biqieu6rqkxvc::::res://scenes/Menu/members/members.tscn<>uid://co7pi8lf8wcqb::::res://assets/button theme/title_screen.tres
-::res://scenes/Menu/custom_button/::1739153960
-custom_button.tscn::PackedScene::7840140581513482831::1739153960::0::1::::<><>::
-::res://scenes/Menu/hotkey_rebind_button/::1739153961
-hotkey_rebind_button.gd::GDScript::-1::1739153860::0::1::::Hotkey_Rebind_Button<>Control<>::
-hotkey_rebind_button.tscn::PackedScene::8020857832848149047::1739153961::0::1::::<><>::res://scenes/Menu/hotkey_rebind_button/hotkey_rebind_button.gd
-::res://scenes/Menu/main_menu/::1739153960
-main_menu.gd::GDScript::-1::1739153860::0::1::::<>Control<>::
-main_menu.tscn::PackedScene::8396800176573780368::1739153960::0::1::::<><>::uid://dbjl1e6kdxpl6::::res://assets/fonts/PixelOperator8.ttf<>res://scenes/Menu/main_menu/main_menu.gd<>uid://c4oerqb3tlj41::::res://assets/images/background_novo_2.png<>uid://co7pi8lf8wcqb::::res://assets/button theme/title_screen.tres<>uid://cxne5idljjp0o::::res://scenes/Menu/options_menu/options_menu.tscn<>uid://iw7sopyr77do::::res://assets/music/galinhabotaovograndemimficarfeliz.mp3<>uid://c77g0kboeh103::::res://scenes/Menu/credits/credits.tscn
-::res://scenes/Menu/main_menu_button/::1739153917
-main_menu_button.tscn::PackedScene::5935119874076642630::1739153917::0::1::::<><>::uid://djx278hxhh256::::res://scenes/Menu/custom_button/custom_button.tscn
-::res://scenes/Menu/members/::1739224665
-members.tscn::PackedScene::2981455455130211544::1739224665::0::1::::<><>::uid://dbjl1e6kdxpl6::::res://assets/fonts/PixelOperator8.ttf
-::res://scenes/Menu/options_display_button/::1739153860
-options_display_button.tscn::PackedScene::2067409085843947007::1739153860::0::1::::<><>::
-::res://scenes/Menu/options_menu/::1739153960
-options_menu.gd::GDScript::-1::1739153860::0::1::::Options_Menu<>Control<>::
-options_menu.tscn::PackedScene::6414318548985339796::1739153960::0::1::::<><>::uid://dbjl1e6kdxpl6::::res://assets/fonts/PixelOperator8.ttf<>res://scenes/Menu/options_menu/options_menu.gd<>uid://co7pi8lf8wcqb::::res://assets/button theme/title_screen.tres<>uid://c53kogtyjwsss::::res://assets/fonts/PixelOperator8-Bold.ttf<>uid://dny40ih02jt6u::::res://scenes/Menu/settings_tab_container/settings_tab_container.tscn
-::res://scenes/Menu/options_menu_button/::1739153960
-options_menu_button.tscn::PackedScene::3064333834998994125::1739153960::0::1::::<><>::uid://djx278hxhh256::::res://scenes/Menu/custom_button/custom_button.tscn
-::res://scenes/Menu/resolution_mode_button/::1739153961
-resolution_mode_button.gd::GDScript::-1::1739153860::0::1::::<>Control<>::
-resolution_mode_button.tscn::PackedScene::5621563123751681687::1739153961::0::1::::<><>::uid://4pp6p8pm5pwh::::res://scenes/Menu/options_display_button/options_display_button.tscn<>res://scenes/Menu/resolution_mode_button/resolution_mode_button.gd
-::res://scenes/Menu/settings_tab_container/::1739153961
-settings_tab_container.tscn::PackedScene::8123067954281784150::1739153961::0::1::::<><>::uid://dmjmmejttoh0j::::res://scenes/Menu/hotkey_rebind_button/hotkey_rebind_button.tscn<>uid://b3kiv0cbxb1wd::::res://scenes/Menu/audio_slider_settings/audio_slider_settings.tscn<>uid://dw2xrvnsa84ga::::res://scenes/Menu/window_mode_button/window_mode_button.tscn<>uid://cmdek81ch3bln::::res://scenes/Menu/resolution_mode_button/resolution_mode_button.tscn
-::res://scenes/Menu/window_mode_button/::1739153961
-window_mode_button.gd::GDScript::-1::1739153860::0::1::::Window_Mode_Button<>Control<>::
-window_mode_button.tscn::PackedScene::8760582783697620296::1739153961::0::1::::<><>::uid://4pp6p8pm5pwh::::res://scenes/Menu/options_display_button/options_display_button.tscn<>res://scenes/Menu/window_mode_button/window_mode_button.gd
-::res://scenes/Platforms/::1739153860
-::res://scenes/Platforms/regular platform/::1739153860
-regular_platform.tscn::PackedScene::493621643564906914::1739153860::0::1::::<><>::uid://cxuqjimd7csiq::::res://assets/sprites/platforms.png
-::res://scenes/Projectiles/::1739153860
-::res://scenes/Projectiles/bullet/::1739226929
-bullet.gd::GDScript::-1::1739153860::0::1::::Bullet<>CharacterBody2D<>::
-bullet.tscn::PackedScene::321851214851032649::1739153960::0::1::::<><>::res://scenes/Projectiles/bullet/bullet.gd<>uid://qtno0b5l7ch3::::res://assets/sprites/milho.png
-bullet_worm.gd::GDScript::-1::1739153860::0::1::::WormBullet<>CharacterBody2D<>::
-bullet_worm.tscn::PackedScene::1261222826455629362::1739226929::0::1::::<><>::res://scenes/Projectiles/bullet/bullet_worm.gd<>uid://dwpf8re4uiwwh::::res://scenes/Killzone/killzone.tscn<>uid://bek4s2mu5gbae::::res://assets/sprites/BALAMinhoca.png
-::res://scenes/Projectiles/stone/::1739226929
-stone.gd::GDScript::-1::1739153860::0::1::::Stone<>Area2D<>::
-stone.tscn::PackedScene::7013710766131017262::1739226929::0::1::::<><>::uid://bvml62v62ciyi::::res://assets/sprites/Teiu/Rocha Caindo Teiu - Ataque2/pixil-frame-0.png<>res://scenes/Projectiles/stone/stone.gd<>uid://dwpf8re4uiwwh::::res://scenes/Killzone/killzone.tscn<>uid://bx7dacu2vdnhr::::res://assets/sprites/Teiu/Rocha Caindo Teiu - Ataque2/pixil-frame-1.png<>uid://d0q2ggjspjogn::::res://assets/sprites/Teiu/Rocha Caindo Teiu - Ataque2/pixil-frame-2.png
-::res://singletons/::1739153860
-::res://singletons/Signal Manager/::1739153860
-signal_manager.gd::GDScript::-1::1739153860::0::1::::<>Node<>::
+::res://::1739239843
+default_bus_layout.tres::AudioBusLayout::2952593895881318664::1739239222::0::1::::<><>::
+export_presets.cfg::TextFile::-1::1739239725::0::1::::<><>::
+icon.svg::CompressedTexture2D::3050862706883213075::1739239222::1739239243::1::::<><>::
+::res://assets/::1739239222
+::res://assets/button theme/::1739239222
+game_over.tres::Theme::2485813061310795882::1739239850::0::1::::<><>::uid://dbjl1e6kdxpl6::::res://assets/fonts/PixelOperator8.ttf
+hud.tres::Theme::8126289231589593191::1739239222::0::1::::<><>::uid://dbjl1e6kdxpl6::::res://assets/fonts/PixelOperator8.ttf
+title_screen.tres::Theme::5822472058226851529::1739239222::0::1::::<><>::uid://dbjl1e6kdxpl6::::res://assets/fonts/PixelOperator8.ttf
+::res://assets/fonts/::1739239242
+PixelOperator8-Bold.ttf::FontFile::6936941770277928638::1739239222::1739239242::1::::<><>::
+PixelOperator8.ttf::FontFile::7248744870507454393::1739239222::1739239242::1::::<><>::
+::res://assets/images/::1739239243
+background_novo_2.png::CompressedTexture2D::6837493191129859936::1739239222::1739239243::1::::<><>::
+::res://assets/music/::1739239242
+galinhabotaovograndemimficarfeliz.mp3::AudioStreamMP3::608902907365820100::1739239222::1739239242::1::::<><>::
+time_for_adventure.mp3::AudioStreamMP3::910032320464020072::1739239222::1739239242::1::::<><>::
+::res://assets/sounds/::1739239244
+coin.wav::AudioStreamWAV::540128631005207270::1739239222::1739239244::1::::<><>::
+explosion.wav::AudioStreamWAV::3923250085558049769::1739239222::1739239244::1::::<><>::
+hurt.wav::AudioStreamWAV::9136989958465260607::1739239222::1739239244::1::::<><>::
+jump.wav::AudioStreamWAV::4555448410108296144::1739239222::1739239244::1::::<><>::
+power_up.wav::AudioStreamWAV::5280086168748845488::1739239222::1739239244::1::::<><>::
+tap.wav::AudioStreamWAV::8577790250360397841::1739239222::1739239244::1::::<><>::
+::res://assets/sprites/::1739239243
+BALAMinhoca.png::CompressedTexture2D::2689614210483486360::1739239222::1739239242::1::::<><>::
+CanjicaAndar.png::CompressedTexture2D::3876357805226893029::1739239222::1739239242::1::::<><>::
+CanjicaLife.png::CompressedTexture2D::8687615720853511023::1739239222::1739239242::1::::<><>::
+CanjicaStop.png::CompressedTexture2D::7146000192722570333::1739239222::1739239242::1::::<><>::
+coin.png::CompressedTexture2D::3447739040894185057::1739239222::1739239242::1::::<><>::
+CoinMilho.png::CompressedTexture2D::1361151569164431889::1739239222::1739239242::1::::<><>::
+corn.png::CompressedTexture2D::599784531538221302::1739239222::1739239242::1::::<><>::
+explosao.png::CompressedTexture2D::1249932696017560178::1739239222::1739239243::1::::<><>::
+FalcaoAndar.png::CompressedTexture2D::5369074361076081979::1739239222::1739239242::1::::<><>::
+FalcaoTiro.png::CompressedTexture2D::9051848128535345510::1739239222::1739239242::1::::<><>::
+fruit.png::CompressedTexture2D::470233896381552850::1739239222::1739239242::1::::<><>::
+JareStop.png::CompressedTexture2D::6642241707792353323::1739239222::1739239242::1::::<><>::
+JareTiro.png::CompressedTexture2D::8274158380314213833::1739239222::1739239242::1::::<><>::
+milho.png::CompressedTexture2D::1163060313563867202::1739239222::1739239242::1::::<><>::
+MinhocaoAtaque.png::CompressedTexture2D::6279739305449718607::1739239222::1739239242::1::::<><>::
+Minhocao_Andar_Invertido (1).png::CompressedTexture2D::3224967129910448240::1739239222::1739239242::1::::<><>::
+MundoBlocos.png::CompressedTexture2D::7222870286586984351::1739239222::1739239243::1::::<><>::
+pe de milho.png::CompressedTexture2D::8122051154762643351::1739239222::1739239243::1::::<><>::
+platforms.png::CompressedTexture2D::6429460309075172824::1739239222::1739239243::1::::<><>::
+slime_green.png::CompressedTexture2D::3222140907498469096::1739239222::1739239243::1::::<><>::
+::res://assets/sprites/Teiu/::1739239222
+::res://assets/sprites/Teiu/Ataque 1/::1739239243
+pixil-frame-0.png::CompressedTexture2D::2338457208740320852::1739239222::1739239243::1::::<><>::
+pixil-frame-1.png::CompressedTexture2D::2087629817586756435::1739239222::1739239243::1::::<><>::
+pixil-frame-2.png::CompressedTexture2D::5408659931109380011::1739239222::1739239243::1::::<><>::
+pixil-frame-3.png::CompressedTexture2D::6496535083209099963::1739239222::1739239243::1::::<><>::
+pixil-frame-4.png::CompressedTexture2D::2281112229522270691::1739239222::1739239243::1::::<><>::
+pixil-frame-5.png::CompressedTexture2D::355562606925113990::1739239222::1739239243::1::::<><>::
+pixil-frame-6.png::CompressedTexture2D::6862507362175469518::1739239222::1739239243::1::::<><>::
+pixil-frame-7.png::CompressedTexture2D::7531280842529803046::1739239222::1739239243::1::::<><>::
+::res://assets/sprites/Teiu/Idle/::1739239243
+pixil-frame-0.png::CompressedTexture2D::5885526146850110623::1739239222::1739239243::1::::<><>::
+pixil-frame-1.png::CompressedTexture2D::7137802091826270839::1739239222::1739239243::1::::<><>::
+pixil-frame-2.png::CompressedTexture2D::6961123420783962159::1739239222::1739239243::1::::<><>::
+pixil-frame-3.png::CompressedTexture2D::675505628668058968::1739239222::1739239243::1::::<><>::
+::res://assets/sprites/Teiu/RabadaTeiu-Ataque2/::1739239243
+pixil-frame-0.png::CompressedTexture2D::7780560435358428352::1739239222::1739239243::1::::<><>::
+pixil-frame-1.png::CompressedTexture2D::7653831196016770461::1739239222::1739239243::1::::<><>::
+pixil-frame-2.png::CompressedTexture2D::8282112073790667124::1739239222::1739239243::1::::<><>::
+pixil-frame-3.png::CompressedTexture2D::4401309932763629638::1739239222::1739239243::1::::<><>::
+pixil-frame-4.png::CompressedTexture2D::2775673465737919538::1739239222::1739239243::1::::<><>::
+pixil-frame-5.png::CompressedTexture2D::7687536205054132864::1739239222::1739239243::1::::<><>::
+pixil-frame-6.png::CompressedTexture2D::3436114630011015238::1739239222::1739239243::1::::<><>::
+::res://assets/sprites/Teiu/Rocha Caindo Teiu - Ataque2/::1739239243
+pixil-frame-0.png::CompressedTexture2D::3885883631687995832::1739239222::1739239243::1::::<><>::
+pixil-frame-1.png::CompressedTexture2D::4067006463673799419::1739239222::1739239242::1::::<><>::
+pixil-frame-2.png::CompressedTexture2D::8948663589544786505::1739239222::1739239242::1::::<><>::
+::res://assets/sprites/Teiu/TeiuAndar/::1739239242
+pixil-frame-0.png::CompressedTexture2D::5551346520477423897::1739239222::1739239242::1::::<><>::
+pixil-frame-1.png::CompressedTexture2D::8582519298630252960::1739239222::1739239242::1::::<><>::
+pixil-frame-2.png::CompressedTexture2D::5268997842482007186::1739239222::1739239242::1::::<><>::
+pixil-frame-3.png::CompressedTexture2D::208594341363480035::1739239222::1739239242::1::::<><>::
+::res://assets/transitions/::1739239222
+transition_shader.gdshader::Shader::-1::1739239222::0::1::::<><>::
+::res://scenes/::1739239843
+::res://scenes/Bosses/::1739239222
+::res://scenes/Bosses/teiu/::1739239222
+::res://scenes/Bosses/teiu/dead state/::1739239222
+dead_state.gd::GDScript::-1::1739239222::0::1::::Dead_State<>Teiu_State<>::
+::res://scenes/Bosses/teiu/follow state/::1739239222
+follow_state.gd::GDScript::-1::1739239222::0::1::::Follow_State<>Teiu_State<>::
+::res://scenes/Bosses/teiu/idle state/::1739239222
+idle_state.gd::GDScript::-1::1739239222::0::1::::Idle_State<>Teiu_State<>::
+::res://scenes/Bosses/teiu/jump state/::1739239222
+jump_state.gd::GDScript::-1::1739239222::0::1::::Jump_State<>Teiu_State<>::
+::res://scenes/Bosses/teiu/melee attack state/::1739239222
+melee_attack_state.gd::GDScript::-1::1739239222::0::1::::Melee_Attack<>Teiu_State<>::
+::res://scenes/Bosses/teiu/minions attack state/::1739239222
+minions_attack_state.gd::GDScript::-1::1739239222::0::1::::Minions_Attack_State<>Teiu_State<>::
+::res://scenes/Bosses/teiu/stone attack state/::1739239222
+stone_attack_state.gd::GDScript::-1::1739239222::0::1::::Stone_Attack_State<>Teiu_State<>::
+::res://scenes/Bosses/teiu/teiu/::1739239222
+teiu.gd::GDScript::-1::1739239222::0::1::::Teiu<>CharacterBody2D<>::
+teiu.tscn::PackedScene::3142537702712151744::1739239222::0::1::::<><>::res://scenes/Bosses/teiu/teiu/teiu.gd<>uid://8k1bwfgvkx37::::res://assets/sprites/Teiu/Ataque 1/pixil-frame-0.png<>uid://cldd4pinhli14::::res://assets/sprites/Teiu/TeiuAndar/pixil-frame-0.png<>uid://dujo3r2f6kyqa::::res://assets/sprites/Teiu/TeiuAndar/pixil-frame-1.png<>uid://40i7tsy8ocnr::::res://assets/sprites/Teiu/Ataque 1/pixil-frame-1.png<>uid://chclvidptwu3k::::res://assets/sprites/Teiu/TeiuAndar/pixil-frame-2.png<>uid://cjb83ryf2rj6r::::res://assets/sprites/Teiu/Ataque 1/pixil-frame-2.png<>uid://cys78pd7xigfj::::res://assets/sprites/Teiu/Ataque 1/pixil-frame-3.png<>uid://c8brvgkatk0r::::res://assets/sprites/Teiu/TeiuAndar/pixil-frame-3.png<>uid://7q8t5otc2qch::::res://assets/sprites/Teiu/Ataque 1/pixil-frame-4.png<>uid://di37xt25mjyvo::::res://assets/sprites/Teiu/RabadaTeiu-Ataque2/pixil-frame-0.png<>uid://dhbtqmxhrrcgr::::res://assets/sprites/Teiu/RabadaTeiu-Ataque2/pixil-frame-1.png<>uid://fcicgg3l2jn7::::res://assets/sprites/Teiu/Ataque 1/pixil-frame-5.png<>uid://c41iq1vv0pwh7::::res://assets/sprites/Teiu/Ataque 1/pixil-frame-6.png<>uid://dp86f8itoqrk3::::res://assets/sprites/Teiu/RabadaTeiu-Ataque2/pixil-frame-2.png<>uid://b3ya6w41cc2uc::::res://assets/sprites/Teiu/RabadaTeiu-Ataque2/pixil-frame-3.png<>uid://dfkhdh8qo0ex7::::res://assets/sprites/Teiu/Ataque 1/pixil-frame-7.png<>uid://cp380xwdi2vl4::::res://assets/sprites/Teiu/Idle/pixil-frame-0.png<>uid://bfss63shq07ak::::res://assets/sprites/Teiu/RabadaTeiu-Ataque2/pixil-frame-4.png<>uid://bo7qknwoffk0u::::res://assets/sprites/Teiu/RabadaTeiu-Ataque2/pixil-frame-6.png<>uid://c8xus7uftd0ql::::res://assets/sprites/Teiu/Idle/pixil-frame-1.png<>uid://c6gaxkxbs218n::::res://assets/sprites/Teiu/Idle/pixil-frame-2.png<>uid://jvhqj0cnefvk::::res://assets/sprites/Teiu/Idle/pixil-frame-3.png<>uid://dwpf8re4uiwwh::::res://scenes/Killzone/killzone.tscn
+::res://scenes/Bosses/teiu/teiu state/::1739239222
+teiu_state.gd::GDScript::-1::1739239222::0::1::::Teiu_State<>Node<>::
+::res://scenes/Collectibles/::1739239222
+::res://scenes/Collectibles/coin/::1739239222
+coin.gd::GDScript::-1::1739239222::0::1::::Coin<>Area2D<>::
+coin.tscn::PackedScene::4366343840395457752::1739239222::0::1::::<><>::res://scenes/Collectibles/coin/coin.gd<>uid://tnl75ny5d2sj::::res://assets/sprites/CoinMilho.png<>uid://hxv3svfwkg67::::res://assets/sounds/coin.wav
+::res://scenes/Collectibles/goal/::1739239222
+goal.gd::GDScript::-1::1739239222::0::1::::Goal<>Area2D<>::
+goal.tscn::PackedScene::7358449163452309802::1739239222::0::1::::<><>::uid://dnym84h1fqhud::::res://assets/sprites/pe de milho.png<>res://scenes/Collectibles/goal/goal.gd
+::res://scenes/Effects/::1739239222
+::res://scenes/Effects/explosion/::1739239222
+explosion.gd::GDScript::-1::1739239222::0::1::::Explosion<>AnimatedSprite2D<>::
+explosion.tscn::PackedScene::363535320110459375::1739239222::0::1::::<><>::uid://r2qhdqb3au3k::::res://assets/sprites/explosao.png<>res://scenes/Effects/explosion/explosion.gd
+::res://scenes/Enemies/::1739239222
+::res://scenes/Enemies/enemy/::1739239222
+enemy.gd::GDScript::-1::1739239222::0::1::::Enemy<>CharacterBody2D<>::
+::res://scenes/Enemies/falcao/::1739239222
+falcao.gd::GDScript::-1::1739239222::0::1::::<>Node2D<>::
+falcao.tscn::PackedScene::3009460542281745977::1739239222::0::1::::<><>::res://scenes/Enemies/falcao/falcao.gd<>uid://ciq24ucc84fsl::::res://assets/sprites/FalcaoAndar.png<>uid://dwpf8re4uiwwh::::res://scenes/Killzone/killzone.tscn<>uid://d171u7ks0trji::::res://assets/sprites/FalcaoTiro.png
+::res://scenes/Enemies/jare/::1739239222
+jaré.gd::GDScript::-1::1739239222::0::1::::<>Node2D<>::
+jaré.tscn::PackedScene::1152899512884248852::1739239850::0::1::::<><>::res://scenes/Enemies/jare/jaré.gd<>uid://c1vs0rtamjh3p::::res://assets/sprites/JareStop.png<>uid://dwpf8re4uiwwh::::res://scenes/killzone/killzone.tscn<>uid://dp5cgdxeirorh::::res://assets/sprites/JareTiro.png
+::res://scenes/Enemies/minhocao/::1739239222
+minhocao.gd::GDScript::-1::1739239222::0::1::::<>Node2D<>::
+minhocao.tscn::PackedScene::7111105654848679183::1739239222::0::1::::<><>::res://scenes/Enemies/minhocao/minhocao.gd<>uid://cvp7nhsrqx2al::::res://assets/sprites/MinhocaoAtaque.png<>uid://bl7g0cq8bo1ku::::res://assets/sprites/Minhocao_Andar_Invertido (1).png<>uid://dwpf8re4uiwwh::::res://scenes/Killzone/killzone.tscn
+::res://scenes/Game/::1739239222
+::res://scenes/Game/game/::1739239222
+game.gd::GDScript::-1::1739239222::0::1::::Game<>Node<>::
+game.tscn::PackedScene::2652297229941648234::1739239222::0::1::::<><>::res://scenes/Game/game/game.gd<>uid://yhpft6re1pow::::res://scenes/Game/hud/hud.tscn<>uid://d0cfa7xcnoiva::::res://scenes/Game/player/player.tscn<>uid://b7ttd6r2ej4kq::::res://scenes/Game/pause/pause.tscn<>uid://r62w6lovct0f::::res://scenes/Game/music/music.tscn
+::res://scenes/Game/game over/::1739239222
+game_over.gd::GDScript::-1::1739239222::0::1::::Game_Over<>Control<>::
+game_over.tscn::PackedScene::1110550344931741662::1739239222::0::1::::<><>::res://scenes/Game/game over/game_over.gd<>uid://dbjl1e6kdxpl6::::res://assets/fonts/PixelOperator8.ttf<>uid://bboe8iq4xv723::::res://assets/button theme/game_over.tres
+::res://scenes/Game/hud/::1739239222
+hud.gd::GDScript::-1::1739239222::0::1::::HUD<>CanvasLayer<>::
+hud.tscn::PackedScene::1699903622063594014::1739239222::0::1::::<><>::res://scenes/Game/hud/hud.gd<>uid://issmmlehcfmk::::res://assets/sprites/corn.png<>uid://dn1o2cu4l1mxj::::res://assets/button theme/hud.tres<>uid://dbjl1e6kdxpl6::::res://assets/fonts/PixelOperator8.ttf<>uid://dv1l05py4dx8j::::res://assets/sprites/CanjicaLife.png
+::res://scenes/Game/music/::1739239222
+music.gd::GDScript::-1::1739239222::0::1::::Music<>AudioStreamPlayer2D<>::
+music.tscn::PackedScene::1258886344373969283::1739239222::0::1::::<><>::uid://iw7sopyr77do::::res://assets/music/galinhabotaovograndemimficarfeliz.mp3<>res://scenes/Game/music/music.gd
+::res://scenes/Game/pause/::1739239222
+pause.gd::GDScript::-1::1739239222::0::1::::Pause<>Control<>::
+pause.tscn::PackedScene::4672847493399569536::1739239222::0::1::::<><>::res://scenes/Game/pause/pause.gd<>uid://dbjl1e6kdxpl6::::res://assets/fonts/PixelOperator8.ttf
+pause_menu.tres::Theme::3138028939386349899::1739239222::0::1::::<><>::uid://dbjl1e6kdxpl6::::res://assets/fonts/PixelOperator8.ttf
+::res://scenes/Game/player/::1739239222
+player.gd::GDScript::-1::1739239222::0::1::::Player<>CharacterBody2D<>::
+player.tscn::PackedScene::8918417198888574250::1739239222::0::1::::<><>::res://scenes/Game/player/player.gd<>uid://c82ttxqe4m8qj::::res://assets/sprites/CanjicaStop.png<>uid://bvh0bt84c3yiv::::res://assets/sprites/CanjicaAndar.png
+::res://scenes/Game/transition/::1739239222
+transition.gd::GDScript::-1::1739239222::0::1::::Transition<>CanvasLayer<>::
+transition.tscn::PackedScene::8322583565649596598::1739239222::0::1::::<><>::res://assets/transitions/transition_shader.gdshader<>res://scenes/Game/transition/transition.gd
+::res://scenes/Game/you win/::1739239222
+you_win.gd::GDScript::-1::1739239222::0::1::::You_Win<>CanvasLayer<>::
+you_win.tscn::PackedScene::37655307608249676::1739239222::0::1::::<><>::res://scenes/Game/you win/you_win.gd<>uid://dbjl1e6kdxpl6::::res://assets/fonts/PixelOperator8.ttf<>uid://bboe8iq4xv723::::res://assets/button theme/game_over.tres
+::res://scenes/killzone/::1739239222
+killzone.gd::GDScript::-1::1739239222::0::1::::Killzone<>Area2D<>::
+killzone.tscn::PackedScene::8734745694010470891::1739239222::0::1::::<><>::res://scenes/Killzone/killzone.gd
+::res://scenes/Levels/::1739239222
+::res://scenes/Levels/final level/::1739239222
+final_level.gd::GDScript::-1::1739239222::0::1::::Final_Level<>Level<>::
+final_level.tscn::PackedScene::7911492617596011648::1739239222::0::1::::<><>::res://scenes/Levels/final level/final_level.gd<>uid://bk1jewgdc4fu3::::res://scenes/Bosses/teiu/teiu/teiu.tscn<>uid://da52va2pnopad::::res://assets/sprites/MundoBlocos.png<>uid://c53kogtyjwsss::::res://assets/fonts/PixelOperator8-Bold.ttf
+::res://scenes/Levels/level/::1739239222
+level.gd::GDScript::-1::1739239222::0::1::::Level<>Node2D<>::
+level.tscn::PackedScene::897228469024782890::1739239222::0::1::::<><>::res://scenes/Levels/level/level.gd
+::res://scenes/Levels/level 1/::1739239222
+level_1.gd::GDScript::-1::1739239222::0::1::::Level_1<>Level<>::
+level_1.tscn::PackedScene::4065388797420634131::1739239222::0::1::::<><>::res://scenes/Levels/level 1/level_1.gd<>uid://hbd42ccyb4sc::::res://scenes/Platforms/regular platform/regular_platform.tscn<>uid://da52va2pnopad::::res://assets/sprites/MundoBlocos.png<>uid://b3hdbsfoe2ab5::::res://scenes/Collectibles/coin/coin.tscn<>uid://qoqc7bh2rmpo::::res://scenes/Enemies/jare/jaré.tscn<>uid://c8kw4vdik224r::::res://scenes/Enemies/minhocao/minhocao.tscn<>uid://bi42m1ao6mbe4::::res://scenes/Enemies/falcao/falcao.tscn<>uid://dc3qt2sbyjo1w::::res://scenes/Collectibles/goal/goal.tscn
+::res://scenes/Levels/level 2/::1739239222
+level_2.gd::GDScript::-1::1739239222::0::1::::Level_2<>Level<>::
+level_2.tscn::PackedScene::7669284265878089806::1739239222::0::1::::<><>::res://scenes/Levels/level 2/level_2.gd<>uid://da52va2pnopad::::res://assets/sprites/MundoBlocos.png<>uid://bi42m1ao6mbe4::::res://scenes/Enemies/falcao/falcao.tscn<>uid://dc3qt2sbyjo1w::::res://scenes/Collectibles/goal/goal.tscn<>uid://c8kw4vdik224r::::res://scenes/Enemies/minhocao/minhocao.tscn<>uid://qoqc7bh2rmpo::::res://scenes/Enemies/jare/jaré.tscn
+::res://scenes/Levels/level 3/::1739239222
+level_3.gd::GDScript::-1::1739239222::0::1::::Level_3<>Level<>::
+level_3.tscn::PackedScene::1828760654542931640::1739239222::0::1::::<><>::res://scenes/Levels/level 3/level_3.gd<>uid://da52va2pnopad::::res://assets/sprites/MundoBlocos.png<>uid://dc3qt2sbyjo1w::::res://scenes/Collectibles/goal/goal.tscn<>uid://c8kw4vdik224r::::res://scenes/Enemies/minhocao/minhocao.tscn<>uid://bi42m1ao6mbe4::::res://scenes/Enemies/falcao/falcao.tscn<>uid://qoqc7bh2rmpo::::res://scenes/Enemies/jare/jaré.tscn<>uid://hbd42ccyb4sc::::res://scenes/Platforms/regular platform/regular_platform.tscn
+::res://scenes/Menu/::1739239222
+::res://scenes/Menu/audio_slider_settings/::1739239222
+audio_slider_settings.gd::GDScript::-1::1739239222::0::1::::<>Control<>::
+audio_slider_settings.tscn::PackedScene::4372876636962343791::1739239222::0::1::::<><>::res://scenes/Menu/audio_slider_settings/audio_slider_settings.gd
+::res://scenes/Menu/credits/::1739239843
+credits.gd::GDScript::-1::1739239222::0::1::::Credits<>Control<>::
+credits.tscn::PackedScene::7085353926157425614::1739239843::0::1::::<><>::res://scenes/Menu/credits/credits.gd<>uid://c53kogtyjwsss::::res://assets/fonts/PixelOperator8-Bold.ttf<>uid://dbjl1e6kdxpl6::::res://assets/fonts/PixelOperator8.ttf<>uid://biqieu6rqkxvc::::res://scenes/Menu/members/members.tscn<>uid://co7pi8lf8wcqb::::res://assets/button theme/title_screen.tres
+::res://scenes/Menu/custom_button/::1739239222
+custom_button.tscn::PackedScene::7840140581513482831::1739239222::0::1::::<><>::
+::res://scenes/Menu/hotkey_rebind_button/::1739239222
+hotkey_rebind_button.gd::GDScript::-1::1739239222::0::1::::Hotkey_Rebind_Button<>Control<>::
+hotkey_rebind_button.tscn::PackedScene::8020857832848149047::1739239222::0::1::::<><>::res://scenes/Menu/hotkey_rebind_button/hotkey_rebind_button.gd
+::res://scenes/Menu/main_menu/::1739239843
+main_menu.gd::GDScript::-1::1739239222::0::1::::<>Control<>::
+main_menu.tscn::PackedScene::8396800176573780368::1739239843::0::1::::<><>::uid://dbjl1e6kdxpl6::::res://assets/fonts/PixelOperator8.ttf<>res://scenes/Menu/main_menu/main_menu.gd<>uid://c4oerqb3tlj41::::res://assets/images/background_novo_2.png<>uid://co7pi8lf8wcqb::::res://assets/button theme/title_screen.tres<>uid://cxne5idljjp0o::::res://scenes/Menu/options_menu/options_menu.tscn<>uid://iw7sopyr77do::::res://assets/music/galinhabotaovograndemimficarfeliz.mp3<>uid://c77g0kboeh103::::res://scenes/Menu/credits/credits.tscn
+::res://scenes/Menu/main_menu_button/::1739239843
+main_menu_button.tscn::PackedScene::5935119874076642630::1739239843::0::1::::<><>::uid://djx278hxhh256::::res://scenes/Menu/custom_button/custom_button.tscn
+::res://scenes/Menu/members/::1739239222
+members.tscn::PackedScene::2981455455130211544::1739239222::0::1::::<><>::uid://dbjl1e6kdxpl6::::res://assets/fonts/PixelOperator8.ttf
+::res://scenes/Menu/options_display_button/::1739239222
+options_display_button.tscn::PackedScene::2067409085843947007::1739239222::0::1::::<><>::
+::res://scenes/Menu/options_menu/::1739239843
+options_menu.gd::GDScript::-1::1739239222::0::1::::Options_Menu<>Control<>::
+options_menu.tscn::PackedScene::6414318548985339796::1739239843::0::1::::<><>::uid://dbjl1e6kdxpl6::::res://assets/fonts/PixelOperator8.ttf<>res://scenes/Menu/options_menu/options_menu.gd<>uid://co7pi8lf8wcqb::::res://assets/button theme/title_screen.tres<>uid://c53kogtyjwsss::::res://assets/fonts/PixelOperator8-Bold.ttf<>uid://dny40ih02jt6u::::res://scenes/Menu/settings_tab_container/settings_tab_container.tscn
+::res://scenes/Menu/options_menu_button/::1739239843
+options_menu_button.tscn::PackedScene::3064333834998994125::1739239843::0::1::::<><>::uid://djx278hxhh256::::res://scenes/Menu/custom_button/custom_button.tscn
+::res://scenes/Menu/resolution_mode_button/::1739239843
+resolution_mode_button.gd::GDScript::-1::1739239222::0::1::::<>Control<>::
+resolution_mode_button.tscn::PackedScene::5621563123751681687::1739239843::0::1::::<><>::uid://4pp6p8pm5pwh::::res://scenes/Menu/options_display_button/options_display_button.tscn<>res://scenes/Menu/resolution_mode_button/resolution_mode_button.gd
+::res://scenes/Menu/settings_tab_container/::1739239843
+settings_tab_container.tscn::PackedScene::8123067954281784150::1739239843::0::1::::<><>::uid://dmjmmejttoh0j::::res://scenes/Menu/hotkey_rebind_button/hotkey_rebind_button.tscn<>uid://b3kiv0cbxb1wd::::res://scenes/Menu/audio_slider_settings/audio_slider_settings.tscn<>uid://dw2xrvnsa84ga::::res://scenes/Menu/window_mode_button/window_mode_button.tscn<>uid://cmdek81ch3bln::::res://scenes/Menu/resolution_mode_button/resolution_mode_button.tscn
+::res://scenes/Menu/window_mode_button/::1739239843
+window_mode_button.gd::GDScript::-1::1739239222::0::1::::Window_Mode_Button<>Control<>::
+window_mode_button.tscn::PackedScene::8760582783697620296::1739239843::0::1::::<><>::uid://4pp6p8pm5pwh::::res://scenes/Menu/options_display_button/options_display_button.tscn<>res://scenes/Menu/window_mode_button/window_mode_button.gd
+::res://scenes/Platforms/::1739239222
+::res://scenes/Platforms/regular platform/::1739239222
+regular_platform.tscn::PackedScene::493621643564906914::1739239222::0::1::::<><>::uid://cxuqjimd7csiq::::res://assets/sprites/platforms.png
+::res://scenes/Projectiles/::1739239222
+::res://scenes/Projectiles/bullet/::1739239222
+bullet.gd::GDScript::-1::1739239222::0::1::::Bullet<>CharacterBody2D<>::
+bullet.tscn::PackedScene::321851214851032649::1739239222::0::1::::<><>::res://scenes/Projectiles/bullet/bullet.gd<>uid://qtno0b5l7ch3::::res://assets/sprites/milho.png
+bullet_worm.gd::GDScript::-1::1739239222::0::1::::WormBullet<>CharacterBody2D<>::
+bullet_worm.tscn::PackedScene::1261222826455629362::1739239222::0::1::::<><>::res://scenes/Projectiles/bullet/bullet_worm.gd<>uid://dwpf8re4uiwwh::::res://scenes/Killzone/killzone.tscn<>uid://bek4s2mu5gbae::::res://assets/sprites/BALAMinhoca.png
+::res://scenes/Projectiles/stone/::1739239222
+stone.gd::GDScript::-1::1739239222::0::1::::Stone<>Area2D<>::
+stone.tscn::PackedScene::7013710766131017262::1739239222::0::1::::<><>::uid://bvml62v62ciyi::::res://assets/sprites/Teiu/Rocha Caindo Teiu - Ataque2/pixil-frame-0.png<>res://scenes/Projectiles/stone/stone.gd<>uid://dwpf8re4uiwwh::::res://scenes/Killzone/killzone.tscn<>uid://bx7dacu2vdnhr::::res://assets/sprites/Teiu/Rocha Caindo Teiu - Ataque2/pixil-frame-1.png<>uid://d0q2ggjspjogn::::res://assets/sprites/Teiu/Rocha Caindo Teiu - Ataque2/pixil-frame-2.png
+::res://singletons/::1739239222
+::res://singletons/Signal Manager/::1739239222
+signal_manager.gd::GDScript::-1::1739239222::0::1::::<>Node<>::

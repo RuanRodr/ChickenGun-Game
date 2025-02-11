@@ -6,6 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://bx7dacu2vdnhr" path="res://assets/sprites/Teiu/Rocha Caindo Teiu - Ataque2/pixil-frame-1.png" id="2_qp451"]
 [ext_resource type="Texture2D" uid="uid://d0q2ggjspjogn" path="res://assets/sprites/Teiu/Rocha Caindo Teiu - Ataque2/pixil-frame-2.png" id="3_p80vo"]
 
+
 [sub_resource type="AtlasTexture" id="AtlasTexture_1spxo"]
 atlas = ExtResource("1_0lmno")
 region = Rect2(0, 0, 50, 50)

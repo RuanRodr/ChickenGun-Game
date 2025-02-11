@@ -4,6 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://dwpf8re4uiwwh" path="res://scenes/Killzone/killzone.tscn" id="2_02y0k"]
 [ext_resource type="Texture2D" uid="uid://bek4s2mu5gbae" path="res://assets/sprites/BALAMinhoca.png" id="3_ta2vh"]
 
+
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ek6o6"]
 size = Vector2(6, 2)
 
