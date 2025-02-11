@@ -3,7 +3,7 @@ class_name Game extends Node
 const LEVEL_1_PATH: String = "res://scenes/Levels/level 1/level_1.tscn"
 const LEVEL_2_PATH: String = "res://scenes/Levels/level 2/level_2.tscn"
 const LEVEL_3_PATH: String = "res://scenes/Levels/level 3/level_3.tscn"
-const FINAL_LEVEL_PATH: String = "res://scenes/Levels/final level/final_level.tscn"
+const FINAL_LEVEL_PATH: String = "res://scenes/Levels/level_4/level_4.tscn"
 
 const levels_paths: PackedStringArray = [LEVEL_1_PATH, LEVEL_2_PATH, LEVEL_3_PATH, FINAL_LEVEL_PATH]
 
